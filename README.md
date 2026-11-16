@@ -1,7 +1,8 @@
 # scaling_report
 
-**This repository accompanies the manuscript** *Binning is set by spatial covariance and by
-which transcripts dominate* (Tang et al., under review). It contains two things.
+**This repository accompanies the manuscript** *Overdispersion in binned spatial
+transcriptomics falls 5- to 14-fold, not 16,384-fold, because it is set by tissue
+covariance* (Tang et al., under review). It contains two things.
 
 - `scaling_report/` — the reporting procedure as an installable package (numpy only), so
   that a reader can compute the same number for their own section.
