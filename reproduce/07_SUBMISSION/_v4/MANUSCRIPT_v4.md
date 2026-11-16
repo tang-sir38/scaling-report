@@ -178,7 +178,7 @@ For the mapping proxy, five marker sets (epithelial, stromal, T cell, plasma cel
 
 **Data availability.** The four Visium HD sections and the Stereo-seq section analysed here are public data, distributed by 10x Genomics and by STOmicsDB respectively and used unmodified; the dataset names and the STOmicsDB identifier are listed in Table S1. No new data were generated.
 
-**Code availability.** All analysis code, the numbers lock file from which every number in this manuscript is injected, and the derived tables are available at [URL TO BE INSERTED BEFORE SUBMISSION].
+**Code availability.** All analysis code, the numbers lock file from which every number in this manuscript is injected, and the derived tables are available at https://github.com/tang-sir38/scaling-report.
 
 **Author contributions.** C.T. conceived the study, performed the analysis and wrote the manuscript. F.W., Y.Z. and L.Z. contributed to data curation and interpretation. H.T., L.L. and M.W. contributed to interpretation and revision. All authors approved the final version.
 
