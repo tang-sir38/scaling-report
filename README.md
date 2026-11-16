@@ -163,6 +163,11 @@ tables (19 MB) so that every printed number can be re-derived without downloadin
 of raw data. [`reproduce/README.md`](reproduce/README.md) gives the run order, the mapping
 from script to figure, and where the raw data come from.
 
+One reading note: `reproduce/07_SUBMISSION/` holds the **working template** of the manuscript
+(v4 wording), kept because that is the file the numbers are injected into. The text was
+rewritten before submission, so the prose there differs from the submitted version; the
+numbers lock, the derived tables and the analysis scripts are the ones behind it.
+
 The two analyses that were attempted and failed — predicting the whole α(d) curve from the
 measured covariogram, by two independent routes — are kept in that directory instead of
 being deleted, and are written up in Supplementary Note 1 of the paper. A negative result
