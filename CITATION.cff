@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the article and this version."
+title: "scaling_report: report a binned spatial transcriptomics scaling exponent so that two sections can be compared"
+version: 1.0.0
+date-released: "2026-11-15"
+type: software
+license: MIT
+authors:
+  - family-names: Tang
+    given-names: Chaohua
+    orcid: "https://orcid.org/0009-0004-7080-8993"
+    affiliation: "Department of Gynecology, The 95th Hospital of Putian, Putian, Fujian 351100, China"
+    email: tong@fjmu.edu.cn
+keywords:
+  - spatial transcriptomics
+  - Visium HD
+  - Stereo-seq
+  - overdispersion
+  - binning
+references:
+  - type: article
+    title: "The pooled noise–resolution exponent of binned spatial transcriptomics is a composition statistic"
+    year: 2026
+    notes: "Manuscript under review. Update this entry with the journal DOI on acceptance."

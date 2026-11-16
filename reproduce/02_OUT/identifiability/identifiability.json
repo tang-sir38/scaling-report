@@ -1,0 +1,89 @@
+{
+  "colon": {
+    "tissue": "colon",
+    "scales_um": [
+      2,
+      4,
+      8,
+      16,
+      32,
+      64,
+      128,
+      256
+    ],
+    "n_genes": 13115,
+    "gamma_pool": 0.5546672009794249,
+    "gamma_weighted_sum": 0.5563263622309484,
+    "rel_diff": 0.0029912734133076854,
+    "gamma_median_observed": 0.42845401642414704,
+    "top1_gene": "IGKC",
+    "top1_alpha_share": 0.8774665804049301,
+    "top1_gamma": 0.5670516280284037,
+    "median_at_fixed_pool_min": 0.0,
+    "median_at_fixed_pool_max": 1.0,
+    "median_span": 1.0,
+    "slope_dmedian_danchor": -7.16103886845442,
+    "anchor_range": [
+      0.4924789057891361,
+      0.6321234487625262
+    ]
+  },
+  "lung": {
+    "tissue": "lung",
+    "scales_um": [
+      2,
+      4,
+      8,
+      16,
+      32,
+      64,
+      128,
+      256
+    ],
+    "n_genes": 11716,
+    "gamma_pool": 0.5461359106618562,
+    "gamma_weighted_sum": 0.5513250737885416,
+    "rel_diff": 0.00950159662710458,
+    "gamma_median_observed": 0.35341639702104344,
+    "top1_gene": "IGKC",
+    "top1_alpha_share": 0.7561949048304706,
+    "top1_gamma": 0.5771759474638923,
+    "median_at_fixed_pool_min": 0.0,
+    "median_at_fixed_pool_max": 1.0,
+    "median_span": 1.0,
+    "slope_dmedian_danchor": -3.1016370035443757,
+    "anchor_range": [
+      0.3998054120188836,
+      0.7222158033242673
+    ]
+  },
+  "brain": {
+    "tissue": "brain",
+    "scales_um": [
+      2,
+      4,
+      8,
+      16,
+      32,
+      64,
+      128,
+      256
+    ],
+    "n_genes": 11571,
+    "gamma_pool": 0.3636476846116146,
+    "gamma_weighted_sum": 0.373160332245672,
+    "rel_diff": 0.026158966594870974,
+    "gamma_median_observed": 0.6506848984477627,
+    "top1_gene": "Ttr",
+    "top1_alpha_share": 0.1269048215595247,
+    "top1_gamma": 0.3972617725732156,
+    "median_at_fixed_pool_min": 0.2711535567920105,
+    "median_at_fixed_pool_max": 0.41650405773762605,
+    "median_span": 0.14535050094561558,
+    "slope_dmedian_danchor": -0.14535050094561558,
+    "anchor_range": [
+      0.0,
+      1.0
+    ]
+  }
+}

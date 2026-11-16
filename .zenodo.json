@@ -1,0 +1,24 @@
+{
+  "title": "scaling_report: report a binned spatial transcriptomics scaling exponent so that two sections can be compared",
+  "upload_type": "software",
+  "description": "Computes the pooled noise-resolution exponent of binned spatial transcriptomics from mean and variance of per-bin counts, together with the per-gene distribution, the effective number of genes behind the reported number, and the range of per-gene medians the same pooled value admits. Outputs one JSON, one Markdown report and a four-sentence reporting rule. Reproduces the published colon section (gamma_pool = 0.5547, IGKC 87.7% of the exponent). Python >= 3.9, numpy only.",
+  "creators": [
+    {
+      "name": "Tang, Chaohua",
+      "orcid": "0009-0004-7080-8993",
+      "affiliation": "Department of Gynecology, The 95th Hospital of Putian, Putian, Fujian 351100, China"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "spatial transcriptomics",
+    "Visium HD",
+    "Stereo-seq",
+    "overdispersion",
+    "binning",
+    "reproducibility"
+  ],
+  "related_identifiers": [],
+  "version": "1.0.0",
+  "language": "eng"
+}

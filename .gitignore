@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+
+# root-anchored on purpose: an unanchored `out/` also matches reproduce/02_OUT/ on a
+# case-insensitive filesystem (Windows, macOS), which would silently drop every derived
+# table from the commit.
+/out/
+scaling_report_out/
+.DS_Store
+
+# written by 98_build_v4.py / 101_supp_v4.py at run time
+reproduce/07_SUBMISSION/_build_v4/

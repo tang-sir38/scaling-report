@@ -1,0 +1,11 @@
+# The package in scaling_report/ needs numpy only.
+#
+# The analysis pipeline in reproduce/ needs the versions below. These are the ones the
+# manuscript reports in Methods; they are pinned because the numbers depend on the fit
+# windows and on scipy's optimiser defaults.
+numpy==2.5.4
+scipy==1.18.1
+matplotlib==3.11.2
+pandas==3.1.0
+h5py==3.16.0
+python-docx==1.2.0

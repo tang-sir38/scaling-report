@@ -1,0 +1,189 @@
+{
+ "block_um": 512,
+ "n_boot": 200,
+ "sections": {
+  "Visium_HD_Human_Colon_Cancer_P1": {
+   "tissue": "colon_cancer",
+   "gamma_pool": 0.5485115671359143,
+   "gamma_median": 0.6184090962320216,
+   "gamma_q25": 0.47945143604638796,
+   "gamma_q75": 0.7867972342113331,
+   "r2": 0.9966600007208597,
+   "n_genes": 18044,
+   "n_fit": 12650,
+   "n_bins": null,
+   "umi_total": 211769.95844134377,
+   "top1_gene": "IGKC",
+   "top1_alpha_share": 0.6595823088537395,
+   "n_eff_alpha": 2.2600736570225224,
+   "n_eff_mu2": 7.821730473293649,
+   "quarter_sd": 0.04410801769949666,
+   "boot_mean": 0.5503019550964423,
+   "boot_sd": 0.0260450325262737,
+   "boot_lo": 0.5053630625045084,
+   "boot_hi": 0.5962562410921093,
+   "boot_nblk": 161
+  },
+  "colon": {
+   "tissue": "colon_cancer",
+   "gamma_pool": 0.5546672009794249,
+   "gamma_median": 0.42845401642414704,
+   "gamma_q25": 0.338322761443717,
+   "gamma_q75": 0.5846667582325943,
+   "r2": 0.989872770445684,
+   "n_genes": 18061,
+   "n_fit": 13115,
+   "n_bins": 8731400,
+   "umi_total": 585100.2080007165,
+   "top1_gene": "IGKC",
+   "top1_alpha_share": 0.8774665804049301,
+   "n_eff_alpha": 1.2964869699340256,
+   "n_eff_mu2": 2.528116307146352,
+   "quarter_sd": 0.05554452786391822,
+   "boot_mean": 0.5559352599317754,
+   "boot_sd": 0.011998950453775716,
+   "boot_lo": 0.5318729835984384,
+   "boot_hi": 0.5769695587349993,
+   "boot_nblk": 155
+  },
+  "lung": {
+   "tissue": "lung_cancer",
+   "gamma_pool": 0.5461359106618562,
+   "gamma_median": 0.35341639702104344,
+   "gamma_q25": 0.28088735907636486,
+   "gamma_q75": 0.47021303775086326,
+   "r2": 0.9590385611762619,
+   "n_genes": 17784,
+   "n_fit": 11716,
+   "n_bins": 9649299,
+   "umi_total": 446785.02802256047,
+   "top1_gene": "IGKC",
+   "top1_alpha_share": 0.7561949048304706,
+   "n_eff_alpha": 1.6788756242042586,
+   "n_eff_mu2": 7.690093213745058,
+   "quarter_sd": 0.0505213620410196,
+   "boot_mean": 0.5484680451797183,
+   "boot_sd": 0.015278877585341069,
+   "boot_lo": 0.5206056580998562,
+   "boot_hi": 0.5791668916562808,
+   "boot_nblk": 180
+  },
+  "brain": {
+   "tissue": "mouse_brain",
+   "gamma_pool": 0.3636476846116146,
+   "gamma_median": 0.6506848984477627,
+   "gamma_q25": 0.5179005303535492,
+   "gamma_q75": 0.8100449947348328,
+   "r2": 0.9988907859210087,
+   "n_genes": 18978,
+   "n_fit": 11571,
+   "n_bins": 6296688,
+   "umi_total": 265091.1786341907,
+   "top1_gene": "Camk2n1",
+   "top1_alpha_share": 0.08981376137469194,
+   "n_eff_alpha": 31.237097439600255,
+   "n_eff_mu2": 82.30467589670037,
+   "quarter_sd": 0.03844211022899083,
+   "boot_mean": 0.3646165053689893,
+   "boot_sd": 0.011499042130562286,
+   "boot_lo": 0.34433133411449934,
+   "boot_hi": 0.3882791247517457,
+   "boot_nblk": 120
+  }
+ },
+ "contrasts": {
+  "same_tissue_colon": {
+   "a": "Visium_HD_Human_Colon_Cancer_P1",
+   "b": "colon",
+   "delta": -0.006155633843510588,
+   "se_diff": 0.028676096862837164,
+   "z": -0.21466079825835685,
+   "ci_lo": -0.06235975135518437,
+   "ci_hi": 0.050048483668163196
+  },
+  "colon_vs_brain": {
+   "a": "colon",
+   "b": "brain",
+   "delta": 0.19101951636781028,
+   "se_diff": 0.01661934962363482,
+   "z": 11.493802145912879,
+   "ci_lo": 0.1584461894020725,
+   "ci_hi": 0.22359284333354806
+  },
+  "colon_vs_lung": {
+   "a": "colon",
+   "b": "lung",
+   "delta": 0.008531290317568718,
+   "se_diff": 0.01942727238343052,
+   "z": 0.4391398930940526,
+   "ci_lo": -0.029545464172149295,
+   "ci_hi": 0.04660804480728673
+  },
+  "lung_vs_brain": {
+   "a": "lung",
+   "b": "brain",
+   "delta": 0.18248822605024156,
+   "se_diff": 0.019122553966149085,
+   "z": 9.543088563027922,
+   "ci_lo": 0.14500870868853213,
+   "ci_hi": 0.219967743411951
+  }
+ },
+ "contrasts_regional": {
+  "same_tissue_colon": {
+   "a": "Visium_HD_Human_Colon_Cancer_P1",
+   "b": "colon",
+   "delta": -0.006155633843510588,
+   "se_diff": 0.07092751088967311,
+   "z": -0.08678767612591964
+  },
+  "colon_vs_brain": {
+   "a": "colon",
+   "b": "brain",
+   "delta": 0.19101951636781028,
+   "se_diff": 0.06754991054385985,
+   "z": 2.8278278213822676
+  },
+  "colon_vs_lung": {
+   "a": "colon",
+   "b": "lung",
+   "delta": 0.008531290317568718,
+   "se_diff": 0.07508397031394493,
+   "z": 0.11362332441794502
+  },
+  "lung_vs_brain": {
+   "a": "lung",
+   "b": "brain",
+   "delta": 0.18248822605024156,
+   "se_diff": 0.06348388662753453,
+   "z": 2.8745597622419656
+  }
+ },
+ "mde": {
+  "se_typ": 0.01902199149002471,
+  "value": 0.07536588171189038,
+  "z_alpha": 1.959964,
+  "z_power": 0.841621,
+  "z_used": 2.801585,
+  "note": "two-section design, 80% power, two-sided 5%"
+ },
+ "spread": {
+  "colon_P1_minus_colon": -0.006155633843510588,
+  "brain_to_colon": 0.19101951636781028,
+  "within_section_quarter_sd": [
+   0.04410801769949666,
+   0.05554452786391822,
+   0.0505213620410196,
+   0.03844211022899083
+  ],
+  "within_section_quarter_sd_mean": 0.047154004458356324
+ },
+ "regression": {
+  "n": 4,
+  "r": 0.9734269123093487,
+  "slope": 0.2598498897970676,
+  "perm_p": 0.08333333333333333
+ },
+ "icc_note": "ICC over four equal-count bands is reported by 58_pool_sections.py but is not used: the bands are non-overlapping spatial subregions, not exchangeable replicates, so the random-effects model behind ICC does not hold. The superblock bootstrap replaces it.",
+ "source": "65_section_stats.py"
+}

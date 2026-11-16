@@ -1,0 +1,164 @@
+{
+ "stereo_brain": {
+  "label": "stereo_brain",
+  "n_genes": 27480,
+  "n_genes_ok": 15066,
+  "n_cells": [
+   12727377,
+   3188394,
+   798575,
+   200297,
+   50399,
+   12763,
+   3269,
+   851
+  ],
+  "gamma_pool": 0.5654746988047007,
+  "gamma_weighted": 0.5507360233600999,
+  "gamma_median": 1.5324095759451752,
+  "gamma_mean": 1.4938920352569705,
+  "identity_err": 3.829427327355693e-14,
+  "top1": "Gm42418",
+  "top1_alpha_share": 0.5404840556084891,
+  "top1_mu2_share": 0.793736917643996,
+  "top3": [
+   "Gm42418",
+   "Ttr",
+   "Catsperd"
+  ],
+  "n_eff_mu2": 1.5806021405481165,
+  "n_eff_alpha": 3.268847140911058,
+  "alpha_pool_by_scale": [
+   2.901694699908296,
+   1.2466508952356898,
+   0.6732330849704903,
+   0.4003527942987707,
+   0.2583178203795909,
+   0.20012586236353797,
+   0.18161765129872728,
+   0.18642224467717122
+  ]
+ },
+ "visium_hd_brain": {
+  "label": "visium_hd_brain",
+  "n_genes": 18978,
+  "n_genes_ok": 11571,
+  "n_cells": [
+   6296688,
+   1574172,
+   393543,
+   98917,
+   24963,
+   6340,
+   1643,
+   434
+  ],
+  "gamma_pool": 0.3636476846116146,
+  "gamma_weighted": 0.373160332245672,
+  "gamma_median": 0.6506848984477627,
+  "gamma_mean": 0.6763599714654952,
+  "identity_err": 1.7750498969839508e-14,
+  "top1": "Ttr",
+  "top1_alpha_share": 0.1269048215595247,
+  "top1_mu2_share": 0.0003087083299845777,
+  "top3": [
+   "Ttr",
+   "Camk2n1",
+   "Ptgds"
+  ],
+  "n_eff_mu2": 82.30467589670037,
+  "n_eff_alpha": 31.237097439600255,
+  "alpha_pool_by_scale": [
+   4.236151765484938,
+   3.3911640199833233,
+   2.6680548442352916,
+   2.1068541917679062,
+   1.6261964629445314,
+   1.2387729563167746,
+   0.9649814805123257,
+   0.7279320582639986
+  ]
+ },
+ "visium_hd_colon": {
+  "label": "visium_hd_colon",
+  "n_genes": 18061,
+  "n_genes_ok": 13115,
+  "n_cells": [
+   8731400,
+   2182850,
+   545913,
+   137051,
+   34580,
+   8761,
+   2246,
+   582
+  ],
+  "gamma_pool": 0.5546672009794249,
+  "gamma_weighted": 0.5563263622309484,
+  "gamma_median": 0.42845401642414704,
+  "gamma_mean": 0.4891305968749835,
+  "identity_err": 1.222295820004932e-14,
+  "top1": "IGKC",
+  "top1_alpha_share": 0.8774665804049301,
+  "top1_mu2_share": 0.6236690068414272,
+  "top3": [
+   "IGKC",
+   "IGHG1",
+   "IGHM"
+  ],
+  "n_eff_mu2": 2.528116307146352,
+  "n_eff_alpha": 1.2964869699340256,
+  "alpha_pool_by_scale": [
+   31.689325219248936,
+   23.253702085320818,
+   17.930544439837394,
+   12.934328672251068,
+   8.550600173377976,
+   5.329466383391066,
+   3.3995486879416603,
+   2.214273332321827
+  ]
+ },
+ "verdict": {
+  "v1": {
+   "pass_": true,
+   "top1_share": 0.5404840556084891,
+   "n_eff_alpha": 3.268847140911058,
+   "rule": "top1 share > 0.40 and n_eff_alpha < 20 (superseded)"
+  },
+  "H1a_concentration": {
+   "pass_": true,
+   "n_eff_over_genes": 0.00021696848140920338,
+   "rule": "n_eff_alpha / n_genes_ok < 0.01"
+  },
+  "H1b_dominance": {
+   "pass_": true,
+   "top1_share": 0.5404840556084891,
+   "rule": "top1 alpha share > 0.10"
+  },
+  "H2_ordering": {
+   "pass_": true,
+   "gamma_pool": 0.5654746988047007,
+   "gamma_median": 1.5324095759451752,
+   "rule": "gamma_pool < gamma_median (Visium HD brain sign)"
+  },
+  "H3_level": {
+   "delta_gamma_pool": 0.20182701419308607,
+   "delta_gamma_median": 0.8817246774974126,
+   "rule": "reported, not tested; absolute level is platform-specific"
+  },
+  "H4_replication": {
+   "pass_": true,
+   "spearman_per_gene_gamma": 0.7693662722317682,
+   "n_shared": 11230,
+   "rule": "Spearman rho of per-gene gamma across platforms > 0.40"
+  },
+  "cross_platform_genes": {
+   "n_common": 17802,
+   "n_used": 11230,
+   "top1_in_other_top3": true
+  }
+ },
+ "criteria_met": true,
+ "criteria_met_v1": true
+}

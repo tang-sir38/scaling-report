@@ -1,0 +1,502 @@
+{
+ "stahl2016": {
+  "doi": "10.1126/science.aaf2403",
+  "title": "Visualization and analysis of gene expression in tissue sections by spatial transcriptomics",
+  "journal": "Science",
+  "short": "Science",
+  "year": 2016,
+  "volume": "353",
+  "issue": "6294",
+  "page": "78-82",
+  "authors": [
+   {
+    "family": "Ståhl",
+    "given": "Patrik L."
+   },
+   {
+    "family": "Salmén",
+    "given": "Fredrik"
+   },
+   {
+    "family": "Vickovic",
+    "given": "Sanja"
+   },
+   {
+    "family": "Lundmark",
+    "given": "Anna"
+   },
+   {
+    "family": "Navarro",
+    "given": "José Fernández"
+   },
+   {
+    "family": "Magnusson",
+    "given": "Jens"
+   },
+   {
+    "family": "Giacomello",
+    "given": "Stefania"
+   },
+   {
+    "family": "Asp",
+    "given": "Michaela"
+   },
+   {
+    "family": "Westholm",
+    "given": "Jakub O."
+   },
+   {
+    "family": "Huss",
+    "given": "Mikael"
+   },
+   {
+    "family": "Mollbrink",
+    "given": "Annelie"
+   },
+   {
+    "family": "Linnarsson",
+    "given": "Sten"
+   },
+   {
+    "family": "Codeluppi",
+    "given": "Simone"
+   },
+   {
+    "family": "Borg",
+    "given": "Åke"
+   },
+   {
+    "family": "Pontén",
+    "given": "Fredrik"
+   },
+   {
+    "family": "Costea",
+    "given": "Paul Igor"
+   },
+   {
+    "family": "Sahlén",
+    "given": "Pelin"
+   },
+   {
+    "family": "Mulder",
+    "given": "Jan"
+   },
+   {
+    "family": "Bergmann",
+    "given": "Olaf"
+   },
+   {
+    "family": "Lundeberg",
+    "given": "Joakim"
+   },
+   {
+    "family": "Frisén",
+    "given": "Jonas"
+   }
+  ]
+ },
+ "eng2019seqfish": {
+  "doi": "10.1038/s41586-019-1049-y",
+  "title": "Transcriptome-scale super-resolved imaging in tissues by RNA seqFISH+",
+  "journal": "Nature",
+  "short": "Nature",
+  "year": 2019,
+  "volume": "568",
+  "issue": "7751",
+  "page": "235-239",
+  "authors": [
+   {
+    "family": "Eng",
+    "given": "Chee-Huat Linus"
+   },
+   {
+    "family": "Lawson",
+    "given": "Michael"
+   },
+   {
+    "family": "Zhu",
+    "given": "Qian"
+   },
+   {
+    "family": "Dries",
+    "given": "Ruben"
+   },
+   {
+    "family": "Koulena",
+    "given": "Noushin"
+   },
+   {
+    "family": "Takei",
+    "given": "Yodai"
+   },
+   {
+    "family": "Yun",
+    "given": "Jina"
+   },
+   {
+    "family": "Cronin",
+    "given": "Christopher"
+   },
+   {
+    "family": "Karp",
+    "given": "Christoph"
+   },
+   {
+    "family": "Yuan",
+    "given": "Guo-Cheng"
+   },
+   {
+    "family": "Cai",
+    "given": "Long"
+   }
+  ]
+ },
+ "chen2015merfish": {
+  "doi": "10.1126/science.aaa6090",
+  "title": "Spatially resolved, highly multiplexed RNA profiling in single cells",
+  "journal": "Science",
+  "short": "Science",
+  "year": 2015,
+  "volume": "348",
+  "issue": "6233",
+  "page": null,
+  "authors": [
+   {
+    "family": "Chen",
+    "given": "Kok Hao"
+   },
+   {
+    "family": "Boettiger",
+    "given": "Alistair N."
+   },
+   {
+    "family": "Moffitt",
+    "given": "Jeffrey R."
+   },
+   {
+    "family": "Wang",
+    "given": "Siyuan"
+   },
+   {
+    "family": "Zhuang",
+    "given": "Xiaowei"
+   }
+  ]
+ },
+ "he2022cosmx": {
+  "doi": "10.1038/s41587-022-01483-z",
+  "title": "High-plex imaging of RNA and proteins at subcellular resolution in fixed tissue by spatial molecular imaging",
+  "journal": "Nature Biotechnology",
+  "short": "Nat Biotechnol",
+  "year": 2022,
+  "volume": "40",
+  "issue": "12",
+  "page": "1794-1806",
+  "authors": [
+   {
+    "family": "He",
+    "given": "Shanshan"
+   },
+   {
+    "family": "Bhatt",
+    "given": "Ruchir"
+   },
+   {
+    "family": "Brown",
+    "given": "Carl"
+   },
+   {
+    "family": "Brown",
+    "given": "Emily A."
+   },
+   {
+    "family": "Buhr",
+    "given": "Derek L."
+   },
+   {
+    "family": "Chantranuvatana",
+    "given": "Kan"
+   },
+   {
+    "family": "Danaher",
+    "given": "Patrick"
+   },
+   {
+    "family": "Dunaway",
+    "given": "Dwayne"
+   },
+   {
+    "family": "Garrison",
+    "given": "Ryan G."
+   },
+   {
+    "family": "Geiss",
+    "given": "Gary"
+   },
+   {
+    "family": "Gregory",
+    "given": "Mark T."
+   },
+   {
+    "family": "Hoang",
+    "given": "Margaret L."
+   },
+   {
+    "family": "Khafizov",
+    "given": "Rustem"
+   },
+   {
+    "family": "Killingbeck",
+    "given": "Emily E."
+   },
+   {
+    "family": "Kim",
+    "given": "Dae"
+   },
+   {
+    "family": "Kim",
+    "given": "Tae Kyung"
+   },
+   {
+    "family": "Kim",
+    "given": "Youngmi"
+   },
+   {
+    "family": "Klock",
+    "given": "Andrew"
+   },
+   {
+    "family": "Korukonda",
+    "given": "Mithra"
+   },
+   {
+    "family": "Kutchma",
+    "given": "Alecksandr"
+   },
+   {
+    "family": "Lewis",
+    "given": "Zachary R."
+   },
+   {
+    "family": "Liang",
+    "given": "Yan"
+   },
+   {
+    "family": "Nelson",
+    "given": "Jeffrey S."
+   },
+   {
+    "family": "Ong",
+    "given": "Giang T."
+   },
+   {
+    "family": "Perillo",
+    "given": "Evan P."
+   },
+   {
+    "family": "Phan",
+    "given": "Joseph C."
+   },
+   {
+    "family": "Phan-Everson",
+    "given": "Tien"
+   },
+   {
+    "family": "Piazza",
+    "given": "Erin"
+   },
+   {
+    "family": "Rane",
+    "given": "Tushar"
+   },
+   {
+    "family": "Reitz",
+    "given": "Zachary"
+   },
+   {
+    "family": "Rhodes",
+    "given": "Michael"
+   },
+   {
+    "family": "Rosenbloom",
+    "given": "Alyssa"
+   },
+   {
+    "family": "Ross",
+    "given": "David"
+   },
+   {
+    "family": "Sato",
+    "given": "Hiromi"
+   },
+   {
+    "family": "Wardhani",
+    "given": "Aster W."
+   },
+   {
+    "family": "Williams-Wietzikoski",
+    "given": "Corey A."
+   },
+   {
+    "family": "Wu",
+    "given": "Lidan"
+   },
+   {
+    "family": "Beechem",
+    "given": "Joseph M."
+   }
+  ]
+ },
+ "rao2021": {
+  "doi": "10.1038/s41586-021-03634-9",
+  "title": "Exploring tissue architecture using spatial transcriptomics",
+  "journal": "Nature",
+  "short": "Nature",
+  "year": 2021,
+  "volume": "596",
+  "issue": "7871",
+  "page": "211-220",
+  "authors": [
+   {
+    "family": "Rao",
+    "given": "Anjali"
+   },
+   {
+    "family": "Barkley",
+    "given": "Dalia"
+   },
+   {
+    "family": "França",
+    "given": "Gustavo S."
+   },
+   {
+    "family": "Yanai",
+    "given": "Itai"
+   }
+  ]
+ },
+ "moses2022": {
+  "doi": "10.1038/s41592-022-01409-2",
+  "title": "Museum of spatial transcriptomics",
+  "journal": "Nature Methods",
+  "short": "Nat Methods",
+  "year": 2022,
+  "volume": "19",
+  "issue": "5",
+  "page": "534-546",
+  "authors": [
+   {
+    "family": "Moses",
+    "given": "Lambda"
+   },
+   {
+    "family": "Pachter",
+    "given": "Lior"
+   }
+  ]
+ },
+ "wiens1989": {
+  "doi": "10.2307/2389612",
+  "title": "Spatial Scaling in Ecology",
+  "journal": "Functional Ecology",
+  "short": "Functional Ecology",
+  "year": 1989,
+  "volume": "3",
+  "issue": "4",
+  "page": "385",
+  "authors": [
+   {
+    "family": "Wiens",
+    "given": "J. A."
+   }
+  ]
+ },
+ "jelinski1996": {
+  "doi": "10.1007/bf02447512",
+  "title": "The modifiable areal unit problem and implications for landscape ecology",
+  "journal": "Landscape Ecology",
+  "short": "Landscape Ecol",
+  "year": 1996,
+  "volume": "11",
+  "issue": "3",
+  "page": "129-140",
+  "authors": [
+   {
+    "family": "Jelinski",
+    "given": "Dennis E."
+   },
+   {
+    "family": "Wu",
+    "given": "Jianguo"
+   }
+  ]
+ },
+ "legendre1993": {
+  "doi": "10.2307/1939924",
+  "title": "Spatial Autocorrelation: Trouble or New Paradigm?",
+  "journal": "Ecology",
+  "short": "Ecology",
+  "year": 1993,
+  "volume": "74",
+  "issue": "6",
+  "page": "1659-1673",
+  "authors": [
+   {
+    "family": "Legendre",
+    "given": "Pierre"
+   }
+  ]
+ },
+ "eling2019": {
+  "doi": "10.1016/j.cels.2019.08.003",
+  "title": "Correcting the Mean-Variance Dependency for Differential Variability Testing Using Single-Cell RNA Sequencing Data",
+  "journal": "Cell Systems",
+  "short": "Cell Systems",
+  "year": 2019,
+  "volume": "9",
+  "issue": "4",
+  "page": "401-413",
+  "authors": [
+   {
+    "family": "Eling",
+    "given": "Nils"
+   },
+   {
+    "family": "Richard",
+    "given": "Arianne C."
+   },
+   {
+    "family": "Richardson",
+    "given": "Sylvia"
+   },
+   {
+    "family": "Marioni",
+    "given": "John C."
+   },
+   {
+    "family": "Vallejos",
+    "given": "Catalina A."
+   }
+  ]
+ },
+ "ahlmanneltze2023": {
+  "doi": "10.1038/s41592-023-01814-1",
+  "title": "Comparison of transformations for single-cell RNA-seq data",
+  "journal": "Nature Methods",
+  "short": "Nat Methods",
+  "year": 2023,
+  "volume": "20",
+  "issue": "5",
+  "page": "665-672",
+  "authors": [
+   {
+    "family": "Ahlmann-Eltze",
+    "given": "Constantin"
+   },
+   {
+    "family": "Huber",
+    "given": "Wolfgang"
+   }
+  ]
+ }
+}

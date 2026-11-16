@@ -1,0 +1,12 @@
+{
+ "npz": "bins_002um.npz",
+ "n_genes_raw": 18085,
+ "n_genes_noMT": 18074,
+ "n_bins_domain": 9649299,
+ "n_bins_matrix": 9555565,
+ "n_zero_bins": 93734,
+ "zero_frac": 0.009714073530108249,
+ "umi_total": 236409662.0,
+ "umi_per_bin": 24.500190324706487,
+ "umi_median": 19.0
+}

@@ -1,0 +1,29 @@
+{
+ "stereo_with_rrna": {
+  "genes": 15066,
+  "top1": "Gm42418",
+  "top1_share": 0.5404840556084891,
+  "n_eff_alpha": 3.268847140911058,
+  "h1a": true,
+  "h1b": true
+ },
+ "stereo_without_rrna": {
+  "genes": 15064,
+  "top1": "Ttr",
+  "top1_share": 0.26999834723147886,
+  "n_eff_alpha": 12.53895936037718,
+  "h1a": true,
+  "h1b": true
+ },
+ "replication": {
+  "n": 11230,
+  "rho_raw": 0.7693662722317682,
+  "rho_partial_abundance": 0.6146790252188757,
+  "rho_abundance": 0.8280560076357607,
+  "h4_raw": true,
+  "h4_partial": true,
+  "top100_stereo": 0.8285154414226553,
+  "top100_visium": 0.6697016075429489,
+  "top100_stereo_without_rrna": 0.6725549007765574
+ }
+}
