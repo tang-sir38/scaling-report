@@ -14091,5 +14091,274 @@
    "map_log_min": 0.766230912468749,
    "map_log_max": 2.948970827093959
   }
+ },
+ "extra_tissues": {
+  "generated_by": "120_aggregate_extras.py",
+  "lock_sha256_before": "865901cf32a707852ee8766b4529e429085a22e5e4b84db36e7c731c5c43b38c",
+  "n_sections": 7,
+  "sections": [
+   {
+    "key": "colon",
+    "label": "Visium HD Human Colon Cancer",
+    "origin": "NUMBERS_LOCK_v7.json :: datasets",
+    "alpha_2um": 31.68932521924887,
+    "alpha_256um": 2.214273332321866,
+    "drop_fold": 14.311388190734224,
+    "gamma": -0.554364701037133,
+    "n_bins_2um": 8731400,
+    "umi_total": 266642675.0,
+    "umi_per_bin": 30.53836440891495,
+    "n_genes_noMT": 18074,
+    "alpha_by_d": {
+     "2": 31.68932521924887,
+     "4": 23.253702085320707,
+     "8": 17.93054443983757,
+     "16": 12.934328672251088,
+     "32": 8.55060017337798,
+     "64": 5.3294663833911216,
+     "128": 3.3995486879416865,
+     "256": 2.214273332321866
+    },
+    "boot": null
+   },
+   {
+    "key": "lung",
+    "label": "Visium HD Human Lung Cancer",
+    "origin": "NUMBERS_LOCK_v7.json :: datasets",
+    "alpha_2um": 21.44059200711469,
+    "alpha_256um": 1.5587239125337398,
+    "drop_fold": 13.755221072000198,
+    "gamma": -0.5461359106618686,
+    "n_bins_2um": 9649299,
+    "umi_total": 236409662.0,
+    "umi_per_bin": 24.500190324706487,
+    "n_genes_noMT": 18074,
+    "alpha_by_d": {
+     "2": 21.44059200711469,
+     "4": 16.520207935218203,
+     "8": 13.762587448009869,
+     "16": 10.85386074180025,
+     "32": 7.589377268725039,
+     "64": 4.4458676092503895,
+     "128": 2.3736494887948485,
+     "256": 1.5587239125337398
+    },
+    "boot": null
+   },
+   {
+    "key": "brain",
+    "label": "Visium HD Mouse Brain",
+    "origin": "NUMBERS_LOCK_v7.json :: datasets",
+    "alpha_2um": 4.236151765484893,
+    "alpha_256um": 0.7279320582640005,
+    "drop_fold": 5.819432895409807,
+    "gamma": -0.36364768461161434,
+    "n_bins_2um": 6296688,
+    "umi_total": 88708295.0,
+    "umi_per_bin": 14.088088055180755,
+    "n_genes_noMT": 19046,
+    "alpha_by_d": {
+     "2": 4.236151765484893,
+     "4": 3.39116401998333,
+     "8": 2.668054844235313,
+     "16": 2.1068541917679138,
+     "32": 1.6261964629445196,
+     "64": 1.2387729563167644,
+     "128": 0.9649814805123251,
+     "256": 0.7279320582640005
+    },
+    "boot": null
+   },
+   {
+    "key": "mouse_small_intestine",
+    "label": "Visium HD Mouse Small Intestine",
+    "species": "Mouse",
+    "tissue": "Small intestine",
+    "condition": "normal",
+    "dataset": "Visium_HD_Mouse_Small_Intestine",
+    "source": "10x Genomics (public)",
+    "origin": "E:/A_spatial_20261116/OUT/mouse_small_intestine",
+    "alpha_2um": 9.017800405552366,
+    "alpha_256um": 0.5785785389715528,
+    "drop_fold": 15.58613014160857,
+    "gamma": -0.5427678618006282,
+    "n_bins_2um": 5479660,
+    "umi_total": 137186173.0,
+    "umi_per_bin": 25.035526474270302,
+    "n_genes_raw": 19059,
+    "n_genes_noMT": 19046,
+    "n_mt": 13,
+    "h5": "E:\\A_spatial_20261116\\RAW\\mouse_small_intestine\\extracted\\binned_outputs\\square_002um\\filtered_feature_bc_matrix.h5",
+    "alpha_by_d": {
+     "2": 9.017800405552366,
+     "4": 6.98696894562116,
+     "8": 5.960020822944495,
+     "16": 4.892409927098002,
+     "32": 3.6043569562892612,
+     "64": 2.20438005812058,
+     "128": 1.1347395250382766,
+     "256": 0.5785785389715528
+    },
+    "boot": {
+     "n": 200,
+     "seed": 20261116,
+     "point": 15.58613014160857,
+     "ci95": [
+      14.274523126351356,
+      18.13660565819456
+     ],
+     "alpha_256_ci95": [
+      0.497215442376777,
+      0.6317409223223112
+     ],
+     "n_cells_256": 479
+    }
+   },
+   {
+    "key": "mouse_kidney",
+    "label": "Visium HD Mouse Kidney",
+    "species": "Mouse",
+    "tissue": "Kidney",
+    "condition": "normal",
+    "dataset": "Visium_HD_Mouse_Kidney",
+    "source": "10x Genomics (public)",
+    "origin": "E:/A_spatial_20261116/OUT/mouse_kidney",
+    "alpha_2um": 5.416438670323035,
+    "alpha_256um": 1.5496818507408983,
+    "drop_fold": 3.4951939765787743,
+    "gamma": -0.24438748365215765,
+    "n_bins_2um": 7998466,
+    "umi_total": 234094769.0,
+    "umi_per_bin": 29.2674581601022,
+    "n_genes_raw": 19059,
+    "n_genes_noMT": 19046,
+    "n_mt": 13,
+    "h5": "E:\\A_spatial_20261116\\RAW\\mouse_kidney\\extracted\\binned_outputs\\square_002um\\filtered_feature_bc_matrix.h5",
+    "alpha_by_d": {
+     "2": 5.416438670323035,
+     "4": 3.6554238058884834,
+     "8": 3.145168297854295,
+     "16": 2.7056635266805618,
+     "32": 2.295217034208984,
+     "64": 1.9421394406652988,
+     "128": 1.6895219805796755,
+     "256": 1.5496818507408983
+    },
+    "boot": {
+     "n": 200,
+     "seed": 20261116,
+     "point": 3.4951939765787743,
+     "ci95": [
+      3.1521390174591137,
+      3.8734272262513647
+     ],
+     "alpha_256_ci95": [
+      1.3983581861598493,
+      1.7183374972748298
+     ],
+     "n_cells_256": 561
+    }
+   },
+   {
+    "key": "human_pancreas",
+    "label": "Visium HD Human Pancreas",
+    "species": "Human",
+    "tissue": "Pancreas",
+    "condition": "normal",
+    "dataset": "Visium_HD_Human_Pancreas",
+    "source": "10x Genomics (public)",
+    "origin": "E:/A_spatial_20261116/OUT/human_pancreas",
+    "alpha_2um": 1.4975601103168725,
+    "alpha_256um": 0.706935716052215,
+    "drop_fold": 2.118382303103584,
+    "gamma": -0.13373297838385262,
+    "n_bins_2um": 6680593,
+    "umi_total": 232760464.0,
+    "umi_per_bin": 34.841287891658716,
+    "n_genes_raw": 18085,
+    "n_genes_noMT": 18074,
+    "n_mt": 11,
+    "h5": "E:\\A_spatial_20261116\\RAW\\human_pancreas\\extracted\\binned_outputs\\square_002um\\filtered_feature_bc_matrix.h5",
+    "alpha_by_d": {
+     "2": 1.4975601103168725,
+     "4": 1.019253847192494,
+     "8": 0.8913046387988593,
+     "16": 0.8169894911049848,
+     "32": 0.7727434403113902,
+     "64": 0.7333991808342275,
+     "128": 0.6982449358377021,
+     "256": 0.706935716052215
+    },
+    "boot": {
+     "n": 200,
+     "seed": 20261116,
+     "point": 2.118382303103584,
+     "ci95": [
+      1.8181974339704847,
+      2.502840693298832
+     ],
+     "alpha_256_ci95": [
+      0.5983441592293418,
+      0.823650986596422
+     ],
+     "n_cells_256": 496
+    }
+   },
+   {
+    "key": "mouse_embryo",
+    "label": "Visium HD Mouse Embryo",
+    "species": "Mouse",
+    "tissue": "Embryo",
+    "condition": "developing",
+    "dataset": "Visium_HD_Mouse_Embryo",
+    "source": "10x Genomics (public)",
+    "origin": "E:/A_spatial_20261116/OUT/mouse_embryo",
+    "alpha_2um": 3.7085056028493235,
+    "alpha_256um": 1.5897453549679053,
+    "drop_fold": 2.332767063140243,
+    "gamma": -0.1658570972336209,
+    "n_bins_2um": 5404105,
+    "umi_total": 244819099.0,
+    "umi_per_bin": 45.302431947565786,
+    "n_genes_raw": 19059,
+    "n_genes_noMT": 19046,
+    "n_mt": 13,
+    "h5": "E:\\A_spatial_20261116\\RAW\\mouse_embryo\\extracted\\binned_outputs\\square_002um\\filtered_feature_bc_matrix.h5",
+    "alpha_by_d": {
+     "2": 3.7085056028493235,
+     "4": 2.8953484067704505,
+     "8": 2.448611210990268,
+     "16": 2.1642417933507008,
+     "32": 1.9664663664224797,
+     "64": 1.8062449203715591,
+     "128": 1.6808957340895794,
+     "256": 1.5897453549679053
+    },
+    "boot": {
+     "n": 200,
+     "seed": 20261116,
+     "point": 2.332767063140243,
+     "ci95": [
+      2.0744864320646137,
+      2.6645965518887755
+     ],
+     "alpha_256_ci95": [
+      1.3917700224525857,
+      1.7876740698460327
+     ],
+     "n_cells_256": 504
+    }
+   }
+  ],
+  "range": {
+   "min": 2.118382303103584,
+   "max": 15.58613014160857,
+   "min_key": "human_pancreas",
+   "max_key": "mouse_small_intestine",
+   "floor_min": 2,
+   "floor_max": 15,
+   "title_slice": "2- to 15-fold"
+  },
+  "note": "drop_fold = alpha(2um)/alpha(256um)，逐片现场算；floor 取整是标题惯例，不是四舍五入"
  }
 }

@@ -1,7 +1,7 @@
 # scaling_report
 
 **This repository accompanies the manuscript** *Overdispersion in binned spatial
-transcriptomics falls 5- to 14-fold, not 16,384-fold, because it is set by tissue
+transcriptomics falls 2- to 15-fold, not 16,384-fold, because it is set by tissue
 covariance* (Tang et al., under review). It contains two things.
 
 - `scaling_report/` — the reporting procedure as an installable package (numpy only), so

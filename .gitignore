@@ -12,5 +12,7 @@ dist/
 scaling_report_out/
 .DS_Store
 
-# written by 98_build_v4.py / 101_supp_v4.py at run time
-reproduce/07_SUBMISSION/_build_v4/
+# written at run time by the build chains (98_build_v4.py, 110_patch_v55.py, ...).
+# These are intermediate staging directories; the delivered zip is what matters and
+# it is not committed either. Wildcarded so a new version does not need a new line.
+reproduce/07_SUBMISSION/_build_*/
