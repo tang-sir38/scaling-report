@@ -67,10 +67,17 @@ in the report, with your numbers.
 ## Install
 
 ```
-git clone <this repo>
+pip install git+https://github.com/tang-sir38/scaling-report.git
+scaling-report --help
+```
+
+Or from a clone, if you want the examples and the pipeline as well:
+
+```
+git clone https://github.com/tang-sir38/scaling-report.git
 cd scaling-report
 pip install -e .
-scaling-report --help
+scaling-report examples/colon_moments.npz --out report/
 ```
 
 Python ≥ 3.9, numpy ≥ 1.22. Nothing else.
