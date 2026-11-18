@@ -1,7 +1,7 @@
 # scaling_report
 
 **This repository accompanies the manuscript** *Overdispersion in binned spatial
-transcriptomics falls 2- to 15-fold, not 16,384-fold, because it is set by tissue
+transcriptomics falls 2- to 20-fold, not 16,384-fold, because it is set by tissue
 covariance* (Tang et al., under review). It contains two things.
 
 - `scaling_report/` — the reporting procedure as an installable package (numpy only), so
@@ -29,7 +29,7 @@ python -m scaling_report examples/colon_moments.npz --out report/
 ```
 
 ```
-Visium HD colon, section P0: γ_pool = 0.5547 | per-gene median 0.428 (n=13,115)
+Visium HD colon, section P2: γ_pool = 0.5547 | per-gene median 0.428 (n=13,115)
 | IGKC 88% | n_eff 1.3
 ```
 

@@ -4,10 +4,15 @@ r"""
 
 为什么先试点一片
 ----------------
-现有三个组织的 alpha 从 2 um 到 256 um 分别下降 14.31（结肠）、13.76（肺）、
-5.82（脑）倍，标题的 "5- to 14-fold" 就是这三个数取的区间。加新组织之前必须
-先知道它的下降倍数落不落在 5.82-14.31 里 —— 落在里面，标题不用动；落在外面，
-标题、摘要、正文至少三处要改。所以先跑一片，拿到数再决定扩不扩。
+现有七个切片（Visium HD × 7，含 4 个物种/组织）的 alpha 从 2 um 到 256 um
+下降 2.12（人胰腺）到 15.59（小鼠小肠）倍，标题的 "2- to 15-fold" 就是这七个数
+取的极差。加新切片之前必须先知道它的下降倍数落不落在 2.12-15.59 里 ——
+落在里面，极差不变、标题不用动；落在外面，极差被撑开，标题、摘要、正文至少
+三处要改。所以先跑一片，拿到数再决定扩不扩。
+
+v2（2026-11-17）：判读区间从 v5.5 的三切片口径（5.82-14.31 / "5- to 14-fold"）
+更新到 v5.5.1 的七切片口径（2.12-15.59 / "2- to 15-fold"）。旧版留档
+_hist/114_pilot_tissue_v1_3tissue.py。
 
 这个脚本不做任何新分析，只是把 02b_rebin.py 和 07_pooled_alpha.py 串起来，
 中间加一道内存体检和一道判读，免得跑完不知道怎么读。
@@ -37,9 +42,19 @@ HERE = Path(__file__).resolve().parent
 ROOT_DEFAULT = Path(r"E:\A_spatial_20261116")
 REDUCE = [2, 4, 8, 16, 32, 64, 128, 256]
 
-# 现有三个组织的下降倍数（2 um -> 256 um），取自 02_OUT/NUMBERS_LOCK_v7.json
-KNOWN = {"colon": 14.31, "lung": 13.76, "brain": 5.82}
-LO, HI = min(KNOWN.values()), max(KNOWN.values())
+# 现有七个切片（Visium HD，七片进入标度分析）的下降倍数（2 um -> 256 um）
+# 与 gamma（2-256 um 全段池化斜率，负号），取自 02_OUT/extra_tissues_20261116.json
+KNOWN = {
+    "human_pancreas": 2.12,
+    "mouse_embryo": 2.33,
+    "mouse_kidney": 3.50,
+    "brain": 5.82,
+    "lung": 13.76,
+    "colon": 14.31,
+    "mouse_small_intestine": 15.59,
+}
+LO, HI = min(KNOWN.values()), max(KNOWN.values())   # 2.12 / 15.59
+TITLE_RANGE = "2- to 15-fold"
 
 
 def find_inputs(extracted: Path) -> tuple[Path, Path]:
@@ -155,18 +170,33 @@ def main() -> int:
     gamma = res.get("slope_all")
 
     inside = LO <= drop <= HI
+    new_lo = min(LO, round(drop, 2))
+    new_hi = max(HI, round(drop, 2))
+    new_title = f"{new_lo:g}- to {new_hi:g}-fold"
+
+    # gamma 在七片谱里的位置（不参与 inside 判读，只作背景）
+    g_known = {"human_pancreas": -0.1337, "mouse_embryo": -0.1659, "mouse_kidney": -0.2444,
+               "brain": -0.3636, "lung": -0.5461, "colon": -0.5544,
+               "mouse_small_intestine": -0.5428}
+    n_lo = sum(1 for v in g_known.values() if v < (gamma if gamma is not None else 0))
+    pct = 100.0 * n_lo / len(g_known)
+
     print("\n" + "=" * 66)
     print(f"{a.tissue}: alpha(2um)={a2:.3f}  alpha(256um)={a256:.3f}  下降 {drop:.2f} 倍")
     print(f"gamma = {gamma}")
-    print(f"现有区间 {LO:.2f}-{HI:.2f}（脑 5.82 / 肺 13.76 / 结肠 14.31）")
-    print("判读：" + ("落在区间内 —— 标题 \"5- to 14-fold\" 不用改"
-                     if inside else "落在区间外 —— 标题的倍数区间必须改"))
+    print(f"现有七片极差 {LO:.2f}-{HI:.2f}（{TITLE_RANGE}）")
+    print("判读：" + (f"落在极差内 —— 极差仍是 {TITLE_RANGE}，标题不改"
+                     if inside else
+                     f"落在极差外 —— 极差撑开为 {new_lo:g}-{new_hi:g}，标题改为 \"{new_title}\"，"
+                     f"摘要/正文/图注同步"))
+    print(f"背景：gamma 低于现有 {n_lo}/{len(g_known)} 片（第 {pct:.0f} 百分位）")
     print("=" * 66)
 
     (out / "pilot_verdict.json").write_text(json.dumps(dict(
         tissue=a.tissue, alpha_2um=a2, alpha_256um=a256, drop_fold=drop,
         gamma=gamma, existing_range=[LO, HI], inside_range=inside,
-        known=KNOWN,
+        new_range=[new_lo, new_hi], new_title_if_outside=new_title,
+        gamma_percentile=round(pct, 1), known=KNOWN,
     ), ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"写入 {out / 'pilot_verdict.json'}")
     return 0
