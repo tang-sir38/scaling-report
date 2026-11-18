@@ -1,7 +1,7 @@
 {
   "title": "scaling_report: report a binned spatial transcriptomics scaling exponent so that two sections can be compared",
   "upload_type": "software",
-  "description": "Computes the pooled noise-resolution exponent of binned spatial transcriptomics from mean and variance of per-bin counts, together with the per-gene distribution, the effective number of genes behind the reported number, and the range of per-gene medians the same pooled value admits. Outputs one JSON, one Markdown report and a four-sentence reporting rule. Reproduces the published colon section (gamma_pool = 0.5547, IGKC 87.7% of the exponent). Python >= 3.9, numpy only.",
+  "description": "Computes the pooled noise-resolution exponent of binned spatial transcriptomics from the mean and variance of per-bin counts, together with the per-gene distribution, the effective number of genes behind the reported number, and the range of per-gene medians that the same pooled value admits. Outputs one JSON, one Markdown report and a four-sentence reporting rule. Reproduces the colon section shipped in examples/ (gamma_pool = 0.5547, IGKC 87.7% of the exponent). Accompanies the manuscript 'Overdispersion in binned spatial transcriptomics falls 2- to 20-fold, not 16,384-fold, because it is set by tissue covariance' (under review). Python >= 3.9, numpy only.",
   "creators": [
     {
       "name": "Tang, Chaohua",

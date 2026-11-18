@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use this software, please cite both the article and this version."
 title: "scaling_report: report a binned spatial transcriptomics scaling exponent so that two sections can be compared"
 version: 1.0.0
-date-released: "2026-11-15"
+date-released: "2026-11-18"
 type: software
 license: MIT
 authors:
@@ -19,6 +19,9 @@ keywords:
   - binning
 references:
   - type: article
-    title: "The pooled noise–resolution exponent of binned spatial transcriptomics is a composition statistic"
+    title: "Overdispersion in binned spatial transcriptomics falls 2- to 20-fold, not 16,384-fold, because it is set by tissue covariance"
+    authors:
+      - family-names: Tang
+        given-names: Chaohua
     year: 2026
-    notes: "Manuscript under review. Update this entry with the journal DOI on acceptance."
+    notes: "Manuscript under review at Nature Computational Science. Update this entry with the journal DOI on acceptance."
