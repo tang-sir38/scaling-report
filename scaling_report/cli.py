@@ -82,7 +82,8 @@ def main(argv: list[str] | None = None) -> int:
               f"| per-gene median {rep['per_gene']['median']:.3f} "
               f"(n={rep['per_gene']['n']:,}) "
               f"| {c['top1_gene']} {c['top1_share']*100:.0f}% "
-              f"| n_eff {c['n_eff_exponent']:.1f}")
+              f"| n_eff {c['n_eff_variance']:.1f} (variance weight), "
+              f"{c['n_eff_exponent']:.1f} (exponent weight)")
         for w in rep["warnings"]:
             print(f"  warning: {w}")
         print(f"wrote {paths['json']}")

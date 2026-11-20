@@ -5,7 +5,8 @@ r"""
 Reads the Stereo-seq moments (61_gef_moments.py output) and the Visium HD mouse
 brain moments, recomputes every scalar with the *exact* convention of
 50_decomp_exact.py, and then evaluates the three criteria frozen in
-00_ADMIN/PLAN_1QU_20261114.md BEFORE any Stereo-seq number was seen:
+the analysis plan before any Stereo-seq number was seen (that note is
+not part of this repository; the three criteria are restated here):
 
   H1  composition: top1 alpha share > 0.40  AND  n_eff_alpha < 20
   H2  ordering:    gamma_pool < gamma_median (same sign as Visium HD brain)

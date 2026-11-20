@@ -14,19 +14,19 @@ import json
 import sys
 from pathlib import Path
 
-REPO = Path(r"C:\Users\唐朝华\Desktop\scaling-report")
+REPO = Path(__file__).resolve().parents[2]
 SUMMARY = REPO / "reproduce" / "02_OUT" / "extra_tissues_20261116.json"
 
 OLD = ("transcriptomics falls 5- to 14-fold, not 16,384-fold, because it is set by "
-       "tissue\ncovariance* (Tang et al., under review)")
+       "tissue\ncovariance* (Tang et al., submitted)")
 
 
 def main() -> int:
     summary = json.loads(SUMMARY.read_text(encoding="utf-8"))
     rng = summary["range"]
     new = (f"transcriptomics falls {rng['floor_min']}- to {rng['floor_max']}-fold, "
-           f"not 16,384-fold, because it is set by tissue\ncovariance* "
-           "(Tang et al., under review)")
+           f"not 16,384-fold, because the exponent is the decay rate of\n"
+           "tissue covariance* (Tang et al., submitted)")
 
     p = REPO / "README.md"
     txt = p.read_text(encoding="utf-8")

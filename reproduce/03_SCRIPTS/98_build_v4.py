@@ -5,7 +5,7 @@ r"""98_build_v4.py — 由模板 + 数字锁 v7 生成 v4.0 手稿（NCS Analysi
 文本与数字分离：
   07_SUBMISSION/_v4/MANUSCRIPT_v4.md   散文 + {{锁路径:格式}} + [[refkey]]
   02_OUT/NUMBERS_LOCK_v7.json          唯一权威数字
-  00_ADMIN/REFS_v4.json                键控文献表
+  02_OUT/REFS_v4.json                  键控文献表
 
 本脚本做四件事：
   1. 由锁现场构造扁平 digest（键名面向散文，路径留在 ledger 里）
@@ -37,7 +37,7 @@ from docx.shared import Cm, Pt
 
 ROOT = Path(__file__).resolve().parents[1]
 LOCK = ROOT / "02_OUT/NUMBERS_LOCK_v7.json"
-REFS = ROOT / "00_ADMIN/REFS_v4.json"
+REFS = ROOT / "02_OUT/REFS_v4.json"
 TPL = ROOT / "07_SUBMISSION/_v4/MANUSCRIPT_v4.md"
 BUILD = ROOT / "07_SUBMISSION/_build_v4"
 DOCS = BUILD / "docs"

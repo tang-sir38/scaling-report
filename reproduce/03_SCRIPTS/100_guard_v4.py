@@ -25,7 +25,7 @@ DOCX = BUILD / "docs/01_Manuscript.docx"
 LEDGER = BUILD / "numbers_ledger_v4.json"
 STATS = BUILD / "stats_v4.json"
 LOCK = ROOT / "02_OUT/NUMBERS_LOCK_v7.json"
-REFS = ROOT / "00_ADMIN/REFS_v4.json"
+REFS = ROOT / "02_OUT/REFS_v4.json"
 FIGS = BUILD / "figs"
 
 PASS, FAIL, WARN = [], [], []

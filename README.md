@@ -1,8 +1,8 @@
 # scaling_report
 
 **This repository accompanies the manuscript** *Overdispersion in binned spatial
-transcriptomics falls 2- to 20-fold, not 16,384-fold, because it is set by tissue
-covariance* (Tang et al., under review). It contains two things.
+transcriptomics falls 2- to 20-fold, not 16,384-fold, because the exponent is the decay
+rate of tissue covariance* (Tang et al., submitted). It contains two things.
 
 - `scaling_report/` — the reporting procedure as an installable package (numpy only), so
   that a reader can compute the same number for their own section.
@@ -29,8 +29,10 @@ python -m scaling_report examples/colon_moments.npz --out report/
 ```
 
 ```
-Visium HD colon, section P2: γ_pool = 0.5547 | per-gene median 0.428 (n=13,115)
-| IGKC 88% | n_eff 1.3
+colon_moments: γ_pool = 0.5547 | per-gene median 0.428 (n=13,115) | IGKC 88% | n_eff 2.5 (variance weight), 1.3 (exponent weight)
+  warning: one transcript (IGKC) carries 88% of the exponent; report that share or the number will not be comparable with another tissue
+wrote report/scaling_report.json
+wrote report/scaling_report.md
 ```
 
 ## The two things people get wrong
@@ -38,14 +40,16 @@ Visium HD colon, section P2: γ_pool = 0.5547 | per-gene median 0.428 (n=13,115)
 **1. The pooled exponent is a composition statistic, not a tissue property.**
 Writing α_pool(d) = Σ_g w_g(d) α_g(d) with w_g = μ_g² / Σ μ² makes it a weighted mean of
 per-gene exponents, so it inherits whatever transcript happens to dominate the variance.
-In the colon section above, 1.3 genes decide the reported number and one transcript
-(IGKC) supplies 88% of it. Report that share, or the number cannot be compared with a
-tissue whose immunoglobulin fraction is different.
+In the colon section above, 2.5 genes carry the variance behind the reported number and
+1.3 carry the exponent itself, and one transcript (IGKC) supplies 88% of it. Report that
+share, or the number cannot be compared with a tissue whose immunoglobulin fraction is
+different.
 
-**2. There are two effective-gene counts, and only one of them is about the exponent.**
+**2. There are two effective-gene counts, and they answer different questions.**
 `w` is the weight of the *variance*; `v_g = w_g α_g / α_pool` is the weight of the
-*exponent*. In the colon section they give 2.5 and 1.3. The paper's argument is that
-1/Σw² answers the wrong question.
+*exponent*. In the colon section they give 2.5 and 1.3. The manuscript reports 2.5, since
+the pooled value is a μ²-weighted mean; 1.3 is the sharper count for the exponent itself.
+The report prints both, so that the cost of the choice is visible rather than hidden.
 
 ## What the pooled value does not identify
 
