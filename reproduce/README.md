@@ -9,7 +9,7 @@ reproduce/
 ├── 01_DATA/        where the downloaded data go (see 01_DATA/README.md)
 ├── 02_OUT/         derived tables, the numbers lock, the guard output, and
 │                   REFS_v4.json, the keyed bibliography the manuscript is built from
-├── 03_SCRIPTS/     138 scripts, numbered in the order they were run
+├── 03_SCRIPTS/     102 scripts, numbered in the order they were run
 ├── 07_SUBMISSION/  MANUSCRIPT_v4.md, the template that 98_build_v4.py fills with numbers
 ├── D2_MouseBrain/                      derived tables for the mouse brain section
 ├── D3_LungCancer/                      derived tables for the lung section

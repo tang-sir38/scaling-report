@@ -16,3 +16,11 @@ scaling_report_out/
 # These are intermediate staging directories; the delivered zip is what matters and
 # it is not committed either. Wildcarded so a new version does not need a new line.
 reproduce/07_SUBMISSION/_build_*/
+
+# Per-round working copies from the revision of the manuscript. They resolve paths on the
+# machine that built it (PKG/OLD/BUILD constants), so a clone cannot run them; the numbered
+# scripts without a _vNN suffix are the ones that produce every reported number.
+reproduce/03_SCRIPTS/*_v[0-9][0-9].py
+reproduce/03_SCRIPTS/_calc_v[0-9][0-9]_*.py
+reproduce/03_SCRIPTS/_mk_guard_v[0-9][0-9].py
+reproduce/03_SCRIPTS/_guard_v[0-9][0-9]_section.txt
