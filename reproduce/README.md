@@ -1,8 +1,15 @@
 # Reproducing the analysis
 
 This directory is the working tree in which every number in the manuscript was produced.
-It keeps the original layout, so the scripts run without editing: every path inside them is
-resolved as `Path(__file__).parents[1]`, which is this directory.
+It keeps the original layout, so the analysis scripts run without editing: every path inside
+them is resolved as `Path(__file__).parents[1]`, which is this directory.
+
+The exception is 28 of the build scripts, all of them carrying a version suffix (`_v54` …
+`_v58`). They edited the manuscript package on the machine that produced it, so they name that
+machine's directories instead of resolving paths from here. They are kept as a record of what
+changed in each round, not as runnable code, and they produce none of the reported numbers.
+Starting from this version the same applies to the copies made in later rounds: those are not
+distributed, and `.gitignore` keeps them out.
 
 ```
 reproduce/
