@@ -23,7 +23,7 @@ from .report import (Z_ALPHA, Z_POWER, compare, mde, rule_text, summarise,
                      to_markdown, write)
 from .tenx import ladder_from_one_matrix, ladder_from_run
 
-__version__ = "1.1.1"
+__version__ = "1.1.2"
 
 __all__ = [
     "DEFAULT_DS", "Fit", "Moments", "MomentsError", "fit", "identifiability",

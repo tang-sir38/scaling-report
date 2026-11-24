@@ -1,5 +1,24 @@
 # Changelog
 
+## 1.1.2 — 2026-11-24
+
+The 1.1.1 archive shipped files that are not in the repository. No code changed.
+
+### Fixed
+
+- **The 1.1.1 archive was built by walking the directory instead of asking
+  git.** It therefore carried 101 files that `.gitignore` keeps out of the
+  repository: the intermediate submission builds under
+  `reproduce/07_SUBMISSION/_build_v*/`, which include superseded manuscript
+  and cover-letter drafts, plus the later build scripts in
+  `reproduce/03_SCRIPTS/`. Those drafts report values from before the final
+  analysis — a 5- to 14-fold range and a permuted exponent of 0.981, against
+  the 2- to 20-fold range and 0.873 in the manuscript — so a reader comparing
+  them with the paper would find a contradiction that does not exist.
+- The archive is now produced from `git ls-files`, so it is exactly the tracked
+  tree: 270 files, no build directories, identical to the repository.
+- **Use 1.1.2 or later, and do not cite numbers from the 1.1.1 archive.**
+
 ## 1.1.1 — 2026-11-23
 
 The launcher worked only on a machine whose `python` was the one with numpy.
