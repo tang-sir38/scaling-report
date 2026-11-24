@@ -15,6 +15,26 @@ Python standard library, no scipy, no h5py, no anndata, no spatial framework.
 
 ---
 
+## Where the manuscript's numbers live
+
+Every number printed in the manuscript comes from one file:
+
+```
+reproduce/02_OUT/numbers_v8.json      # one value per printed number
+```
+
+It is not typed by hand. `reproduce/03_SCRIPTS/make_numbers_v8.py` reads the analysis
+outputs under `reproduce/02_OUT/` and writes that file. `build_v8.py` renders the
+manuscript from a source in which every number is a `{{key}}` placeholder and **stops**
+if a key is missing, so a printed number cannot drift from its source. `patch_appendix.py`
+applies the same rule to S1 Appendix.
+
+`reproduce/02_OUT/NUMBERS_LOCK_v7.json` is the previous lock, kept as history. Version
+1.2.0 of this archive adds `numbers_v8.json` and the three scripts above; nothing from
+v7 was removed.
+
+---
+
 ## What it answers
 
 Three questions, in the order people actually ask them.

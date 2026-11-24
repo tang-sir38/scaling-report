@@ -1,8 +1,8 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite both the article and this version."
 title: "scaling_report: report a binned spatial transcriptomics scaling exponent so that two sections can be compared"
-version: 1.1.2
-date-released: "2026-11-23"
+version: 1.2.0
+date-released: "2026-11-24"
 type: software
 license: MIT
 authors:
@@ -19,7 +19,7 @@ keywords:
   - binning
 references:
   - type: article
-    title: "Overdispersion in binned spatial transcriptomics falls 2- to 20-fold, not 16,384-fold, because the exponent is the decay rate of tissue covariance"
+    title: "Binning in spatial transcriptomics removes two- to twenty-fold of the excess variance, not the sixteen-thousand-fold that counting statistics predict"
     authors:
       - family-names: Tang
         given-names: Chaohua
