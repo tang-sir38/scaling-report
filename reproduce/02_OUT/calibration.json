@@ -1,0 +1,2440 @@
+{
+  "P1": {
+    "section": "P1",
+    "ds": [
+      2,
+      4,
+      8,
+      16,
+      32,
+      64,
+      128,
+      256
+    ],
+    "n_cells": [
+      8115564.0,
+      2028891.0,
+      507684.0,
+      127809.0,
+      32481.0,
+      8290.0,
+      2164.0,
+      580.0
+    ],
+    "analytic": [
+      {
+        "bin_um": 2.0,
+        "n_bins_total": 8115564,
+        "n1": 2434669.1999999997,
+        "n2": 2434669.1999999997,
+        "n_genes": 2000,
+        "phi_median": 1.0119710255897374,
+        "phi_mean": 1.034075030307029,
+        "phi_q25": 1.0097657090452683,
+        "phi_q75": 1.016852571853406,
+        "phi_q95": 1.0534959692359844,
+        "fpr_poisson": 0.05137466669650381,
+        "fpr_poisson_mean": 0.05327237035445468,
+        "fpr_poisson_q75": 0.05193711425320657,
+        "fpr_ql": 0.05,
+        "power": {
+          "0.25": {
+            "poisson_median": 1.0,
+            "ql_median": 1.0,
+            "poisson_mean": 1.0,
+            "ql_mean": 0.9999999982028387,
+            "loss_pp_median": 0.0,
+            "by_abundance": {
+              "low": {
+                "poisson": 1.0,
+                "ql": 0.999999997008234
+              },
+              "mid": {
+                "poisson": 1.0,
+                "ql": 1.0
+              },
+              "high": {
+                "poisson": 1.0,
+                "ql": 0.9999999975993771
+              }
+            }
+          },
+          "0.5": {
+            "poisson_median": 1.0,
+            "ql_median": 1.0,
+            "poisson_mean": 1.0,
+            "ql_mean": 1.0,
+            "loss_pp_median": 0.0,
+            "by_abundance": {
+              "low": {
+                "poisson": 1.0,
+                "ql": 1.0
+              },
+              "mid": {
+                "poisson": 1.0,
+                "ql": 1.0
+              },
+              "high": {
+                "poisson": 1.0,
+                "ql": 1.0
+              }
+            }
+          },
+          "1.0": {
+            "poisson_median": 1.0,
+            "ql_median": 1.0,
+            "poisson_mean": 1.0,
+            "ql_mean": 1.0,
+            "loss_pp_median": 0.0,
+            "by_abundance": {
+              "low": {
+                "poisson": 1.0,
+                "ql": 1.0
+              },
+              "mid": {
+                "poisson": 1.0,
+                "ql": 1.0
+              },
+              "high": {
+                "poisson": 1.0,
+                "ql": 1.0
+              }
+            }
+          }
+        },
+        "n_equivalent_fraction": 0.9881705846442055,
+        "n_equivalent_fraction_q25": 0.9834267304469492
+      },
+      {
+        "bin_um": 4.0,
+        "n_bins_total": 2028891,
+        "n1": 608667.2999999999,
+        "n2": 608667.2999999999,
+        "n_genes": 2000,
+        "phi_median": 1.0334297375341297,
+        "phi_mean": 1.0984662880341214,
+        "phi_q25": 1.0275366616289114,
+        "phi_q75": 1.0477271017734724,
+        "phi_q95": 1.1526221907992635,
+        "fpr_poisson": 0.0538548035761357,
+        "fpr_poisson_mean": 0.058273714939291274,
+        "fpr_poisson_q75": 0.055517686450318626,
+        "fpr_ql": 0.05,
+        "power": {
+          "0.25": {
+            "poisson_median": 1.0,
+            "ql_median": 1.0,
+            "poisson_mean": 1.0,
+            "ql_mean": 0.9999891860018522,
+            "loss_pp_median": 0.0,
+            "by_abundance": {
+              "low": {
+                "poisson": 1.0,
+                "ql": 0.9999868256294763
+              },
+              "mid": {
+                "poisson": 1.0,
+                "ql": 1.0
+              },
+              "high": {
+                "poisson": 1.0,
+                "ql": 0.9999807196829483
+              }
+            }
+          },
+          "0.5": {
+            "poisson_median": 1.0,
+            "ql_median": 1.0,
+            "poisson_mean": 1.0,
+            "ql_mean": 0.9999999999999615,
+            "loss_pp_median": 0.0,
+            "by_abundance": {
+              "low": {
+                "poisson": 1.0,
+                "ql": 0.9999999999999853
+              },
+              "mid": {
+                "poisson": 1.0,
+                "ql": 1.0
+              },
+              "high": {
+                "poisson": 1.0,
+                "ql": 0.999999999999899
+              }
+            }
+          },
+          "1.0": {
+            "poisson_median": 1.0,
+            "ql_median": 1.0,
+            "poisson_mean": 1.0,
+            "ql_mean": 1.0,
+            "loss_pp_median": 0.0,
+            "by_abundance": {
+              "low": {
+                "poisson": 1.0,
+                "ql": 1.0
+              },
+              "mid": {
+                "poisson": 1.0,
+                "ql": 1.0
+              },
+              "high": {
+                "poisson": 1.0,
+                "ql": 1.0
+              }
+            }
+          }
+        },
+        "n_equivalent_fraction": 0.9676516590178729,
+        "n_equivalent_fraction_q25": 0.9544470105803201
+      },
+      {
+        "bin_um": 8.0,
+        "n_bins_total": 507684,
+        "n1": 152305.19999999998,
+        "n2": 152305.19999999998,
+        "n_genes": 2000,
+        "phi_median": 1.0825715613519007,
+        "phi_mean": 1.2825675083739265,
+        "phi_q25": 1.0630931291921102,
+        "phi_q75": 1.1314160816055892,
+        "phi_q95": 1.4640856557458144,
+        "fpr_poisson": 0.059600843246449875,
+        "fpr_poisson_mean": 0.07022681867948682,
+        "fpr_poisson_q75": 0.06538380715828973,
+        "fpr_ql": 0.05,
+        "power": {
+          "0.25": {
+            "poisson_median": 1.0,
+            "ql_median": 1.0,
+            "poisson_mean": 1.0,
+            "ql_mean": 0.9997485542337688,
+            "loss_pp_median": 0.0,
+            "by_abundance": {
+              "low": {
+                "poisson": 1.0,
+                "ql": 0.9996456787866473
+              },
+              "mid": {
+                "poisson": 1.0,
+                "ql": 0.9999999999999998
+              },
+              "high": {
+                "poisson": 1.0,
+                "ql": 0.999599760836102
+              }
+            }
+          },
+          "0.5": {
+            "poisson_median": 1.0,
+            "ql_median": 1.0,
+            "poisson_mean": 1.0,
+            "ql_mean": 0.9999994974148585,
+            "loss_pp_median": 0.0,
+            "by_abundance": {
+              "low": {
+                "poisson": 1.0,
+                "ql": 0.9999994905960085
+              },
+              "mid": {
+                "poisson": 1.0,
+                "ql": 1.0
+              },
+              "high": {
+                "poisson": 1.0,
+                "ql": 0.999999000904173
+              }
+            }
+          },
+          "1.0": {
+            "poisson_median": 1.0,
+            "ql_median": 1.0,
+            "poisson_mean": 1.0,
+            "ql_mean": 1.0,
+            "loss_pp_median": 0.0,
+            "by_abundance": {
+              "low": {
+                "poisson": 1.0,
+                "ql": 1.0
+              },
+              "mid": {
+                "poisson": 1.0,
+                "ql": 1.0
+              },
+              "high": {
+                "poisson": 1.0,
+                "ql": 1.0
+              }
+            }
+          }
+        },
+        "n_equivalent_fraction": 0.9237264637105435,
+        "n_equivalent_fraction_q25": 0.8838481416056038
+      },
+      {
+        "bin_um": 16.0,
+        "n_bins_total": 127809,
+        "n1": 38342.7,
+        "n2": 38342.7,
+        "n_genes": 2000,
+        "phi_median": 1.2276338228033041,
+        "phi_mean": 1.7852298969163185,
+        "phi_q25": 1.161554463953858,
+        "phi_q75": 1.3979157689832538,
+        "phi_q95": 2.408010851573622,
+        "fpr_poisson": 0.07690350330441809,
+        "fpr_poisson_mean": 0.1000606776704766,
+        "fpr_poisson_q75": 0.09737676077174617,
+        "fpr_ql": 0.05,
+        "power": {
+          "0.25": {
+            "poisson_median": 1.0,
+            "ql_median": 1.0,
+            "poisson_mean": 1.0,
+            "ql_mean": 0.9993790974496747,
+            "loss_pp_median": 0.0,
+            "by_abundance": {
+              "low": {
+                "poisson": 1.0,
+                "ql": 0.9990448049137994
+              },
+              "mid": {
+                "poisson": 1.0,
+                "ql": 0.9999999996750425
+              },
+              "high": {
+                "poisson": 1.0,
+                "ql": 0.9990920574153029
+              }
+            }
+          },
+          "0.5": {
+            "poisson_median": 1.0,
+            "ql_median": 1.0,
+            "poisson_mean": 1.0,
+            "ql_mean": 0.9999552739619122,
+            "loss_pp_median": 0.0,
+            "by_abundance": {
+              "low": {
+                "poisson": 1.0,
+                "ql": 0.9999228803763278
+              },
+              "mid": {
+                "poisson": 1.0,
+                "ql": 1.0
+              },
+              "high": {
+                "poisson": 1.0,
+                "ql": 0.9999429229922129
+              }
+            }
+          },
+          "1.0": {
+            "poisson_median": 1.0,
+            "ql_median": 1.0,
+            "poisson_mean": 1.0,
+            "ql_mean": 0.9999999999467201,
+            "loss_pp_median": 0.0,
+            "by_abundance": {
+              "low": {
+                "poisson": 1.0,
+                "ql": 0.9999999998673832
+              },
+              "mid": {
+                "poisson": 1.0,
+                "ql": 1.0
+              },
+              "high": {
+                "poisson": 1.0,
+                "ql": 0.9999999999728162
+              }
+            }
+          }
+        },
+        "n_equivalent_fraction": 0.81457514603571,
+        "n_equivalent_fraction_q25": 0.7153506831871035
+      },
+      {
+        "bin_um": 32.0,
+        "n_bins_total": 32481,
+        "n1": 9744.3,
+        "n2": 9744.3,
+        "n_genes": 2000,
+        "phi_median": 1.7025360084232974,
+        "phi_mean": 3.1744138517126625,
+        "phi_q25": 1.4743305813951233,
+        "phi_q75": 2.2669809085749058,
+        "phi_q95": 5.283124232665242,
+        "fpr_poisson": 0.1330703096898409,
+        "fpr_poisson_mean": 0.17276962447656918,
+        "fpr_poisson_q75": 0.1930053734492405,
+        "fpr_ql": 0.05,
+        "power": {
+          "0.25": {
+            "poisson_median": 1.0,
+            "ql_median": 0.9999999999999277,
+            "poisson_mean": 1.0,
+            "ql_mean": 0.9986653325476627,
+            "loss_pp_median": 7.227551890309769e-12,
+            "by_abundance": {
+              "low": {
+                "poisson": 1.0,
+                "ql": 0.9982749948506013
+              },
+              "mid": {
+                "poisson": 1.0,
+                "ql": 0.9999781573564887
+              },
+              "high": {
+                "poisson": 1.0,
+                "ql": 0.9977414603201146
+              }
+            }
+          },
+          "0.5": {
+            "poisson_median": 1.0,
+            "ql_median": 1.0,
+            "poisson_mean": 1.0,
+            "ql_mean": 0.9998198836542354,
+            "loss_pp_median": 0.0,
+            "by_abundance": {
+              "low": {
+                "poisson": 1.0,
+                "ql": 0.9996823605167956
+              },
+              "mid": {
+                "poisson": 1.0,
+                "ql": 0.999999999999998
+              },
+              "high": {
+                "poisson": 1.0,
+                "ql": 0.9997772264921458
+              }
+            }
+          },
+          "1.0": {
+            "poisson_median": 1.0,
+            "ql_median": 1.0,
+            "poisson_mean": 1.0,
+            "ql_mean": 0.9999999156970709,
+            "loss_pp_median": 0.0,
+            "by_abundance": {
+              "low": {
+                "poisson": 1.0,
+                "ql": 0.9999997848368769
+              },
+              "mid": {
+                "poisson": 1.0,
+                "ql": 1.0
+              },
+              "high": {
+                "poisson": 1.0,
+                "ql": 0.9999999623242417
+              }
+            }
+          }
+        },
+        "n_equivalent_fraction": 0.5873590897609857,
+        "n_equivalent_fraction_q25": 0.4411153929742973
+      },
+      {
+        "bin_um": 64.0,
+        "n_bins_total": 8290,
+        "n1": 2487.0,
+        "n2": 2487.0,
+        "n_genes": 2000,
+        "phi_median": 3.298086885105697,
+        "phi_mean": 7.378859311050422,
+        "phi_q25": 2.520707850627291,
+        "phi_q75": 5.158045572700684,
+        "phi_q95": 15.100270067705015,
+        "fpr_poisson": 0.2804818472020658,
+        "fpr_poisson_mean": 0.31984579908121724,
+        "fpr_poisson_q75": 0.38814324889565643,
+        "fpr_ql": 0.05,
+        "power": {
+          "0.25": {
+            "poisson_median": 1.0,
+            "ql_median": 0.9999995252822977,
+            "poisson_mean": 1.0,
+            "ql_mean": 0.9945646429513695,
+            "loss_pp_median": 4.747177022590421e-05,
+            "by_abundance": {
+              "low": {
+                "poisson": 1.0,
+                "ql": 0.996434604513746
+              },
+              "mid": {
+                "poisson": 1.0,
+                "ql": 0.9980269376136467
+              },
+              "high": {
+                "poisson": 1.0,
+                "ql": 0.989224380335988
+              }
+            }
+          },
+          "0.5": {
+            "poisson_median": 1.0,
+            "ql_median": 1.0,
+            "poisson_mean": 1.0,
+            "ql_mean": 0.9994499624393134,
+            "loss_pp_median": 0.0,
+            "by_abundance": {
+              "low": {
+                "poisson": 1.0,
+                "ql": 0.9990646757914332
+              },
+              "mid": {
+                "poisson": 1.0,
+                "ql": 0.9999988231176302
+              },
+              "high": {
+                "poisson": 1.0,
+                "ql": 0.9992861428022244
+              }
+            }
+          },
+          "1.0": {
+            "poisson_median": 1.0,
+            "ql_median": 1.0,
+            "poisson_mean": 1.0,
+            "ql_mean": 0.9999956660082123,
+            "loss_pp_median": 0.0,
+            "by_abundance": {
+              "low": {
+                "poisson": 1.0,
+                "ql": 0.9999884248471405
+              },
+              "mid": {
+                "poisson": 1.0,
+                "ql": 1.0
+              },
+              "high": {
+                "poisson": 1.0,
+                "ql": 0.9999985775426157
+              }
+            }
+          }
+        },
+        "n_equivalent_fraction": 0.30320608268940596,
+        "n_equivalent_fraction_q25": 0.193871884191378
+      },
+      {
+        "bin_um": 128.0,
+        "n_bins_total": 2164,
+        "n1": 649.1999999999999,
+        "n2": 649.1999999999999,
+        "n_genes": 2000,
+        "phi_median": 8.924734493392092,
+        "phi_mean": 20.602145157362468,
+        "phi_q25": 6.27121019746542,
+        "phi_q75": 15.073668085564986,
+        "phi_q95": 46.81314849850905,
+        "fpr_poisson": 0.5117788339513596,
+        "fpr_poisson_mean": 0.5309819970620759,
+        "fpr_poisson_q75": 0.6136835815565083,
+        "fpr_ql": 0.05,
+        "power": {
+          "0.25": {
+            "poisson_median": 1.0,
+            "ql_median": 0.9867952095634549,
+            "poisson_mean": 1.0,
+            "ql_mean": 0.950597157847268,
+            "loss_pp_median": 1.32047904365451,
+            "by_abundance": {
+              "low": {
+                "poisson": 1.0,
+                "ql": 0.9610991886512625
+              },
+              "mid": {
+                "poisson": 1.0,
+                "ql": 0.9618085003200741
+              },
+              "high": {
+                "poisson": 1.0,
+                "ql": 0.9288511819078891
+              }
+            }
+          },
+          "0.5": {
+            "poisson_median": 1.0,
+            "ql_median": 0.9999999999224308,
+            "poisson_mean": 1.0,
+            "ql_mean": 0.9970120857257659,
+            "loss_pp_median": 7.75691733068129e-09,
+            "by_abundance": {
+              "low": {
+                "poisson": 1.0,
+                "ql": 0.9978889410825433
+              },
+              "mid": {
+                "poisson": 1.0,
+                "ql": 0.9990272033393538
+              },
+              "high": {
+                "poisson": 1.0,
+                "ql": 0.9941157704536432
+              }
+            }
+          },
+          "1.0": {
+            "poisson_median": 1.0,
+            "ql_median": 1.0,
+            "poisson_mean": 1.0,
+            "ql_mean": 0.9999104515381797,
+            "loss_pp_median": 0.0,
+            "by_abundance": {
+              "low": {
+                "poisson": 1.0,
+                "ql": 0.9998103449844075
+              },
+              "mid": {
+                "poisson": 1.0,
+                "ql": 0.9999998714629806
+              },
+              "high": {
+                "poisson": 1.0,
+                "ql": 0.9999211542131405
+              }
+            }
+          }
+        },
+        "n_equivalent_fraction": 0.11204815837070381,
+        "n_equivalent_fraction_q25": 0.06634093918895805
+      },
+      {
+        "bin_um": 256.0,
+        "n_bins_total": 580,
+        "n1": 174.0,
+        "n2": 174.0,
+        "n_genes": 2000,
+        "phi_median": 29.518605905762037,
+        "phi_mean": 64.90636795389993,
+        "phi_q25": 20.278979139953535,
+        "phi_q75": 49.9854898176594,
+        "phi_q95": 154.48094681982627,
+        "fpr_poisson": 0.7182901751910258,
+        "fpr_poisson_mean": 0.7250632310917579,
+        "fpr_poisson_q75": 0.7816104209663464,
+        "fpr_ql": 0.05,
+        "power": {
+          "0.25": {
+            "poisson_median": 1.0,
+            "ql_median": 0.6350032747208498,
+            "poisson_mean": 1.0,
+            "ql_mean": 0.6234328561962645,
+            "loss_pp_median": 36.49967252791502,
+            "by_abundance": {
+              "low": {
+                "poisson": 1.0,
+                "ql": 0.6482650985366272
+              },
+              "mid": {
+                "poisson": 1.0,
+                "ql": 0.6419647093941742
+              },
+              "high": {
+                "poisson": 1.0,
+                "ql": 0.5800036494034301
+              }
+            }
+          },
+          "0.5": {
+            "poisson_median": 1.0,
+            "ql_median": 0.995977536080113,
+            "poisson_mean": 1.0,
+            "ql_mean": 0.969864739024731,
+            "loss_pp_median": 0.40224639198870316,
+            "by_abundance": {
+              "low": {
+                "poisson": 1.0,
+                "ql": 0.9789396305555726
+              },
+              "mid": {
+                "poisson": 1.0,
+                "ql": 0.9783949432954223
+              },
+              "high": {
+                "poisson": 1.0,
+                "ql": 0.9522332091454186
+              }
+            }
+          },
+          "1.0": {
+            "poisson_median": 1.0,
+            "ql_median": 0.9999999999998068,
+            "poisson_mean": 1.0,
+            "ql_mean": 0.9984207271842289,
+            "loss_pp_median": 1.9317880628477724e-11,
+            "by_abundance": {
+              "low": {
+                "poisson": 1.0,
+                "ql": 0.9988980748905885
+              },
+              "mid": {
+                "poisson": 1.0,
+                "ql": 0.9994450761807845
+              },
+              "high": {
+                "poisson": 1.0,
+                "ql": 0.9969167756814595
+              }
+            }
+          }
+        },
+        "n_equivalent_fraction": 0.03387694234201023,
+        "n_equivalent_fraction_q25": 0.020005832552349744
+      }
+    ],
+    "simulated": [
+      {
+        "bin_um": 8.0,
+        "n_bin": 600,
+        "n_genes": 300,
+        "reps": 200,
+        "delta": 0.0,
+        "block_sd": 0.0,
+        "fpr_poisson": 0.11355,
+        "fpr_ql_moments": 0.04935,
+        "fpr_ql_shrunk": 0.057900000000000014,
+        "phi_median_true": 1.25785452322585,
+        "fpr_analytic_same_genes": 0.11337590169770673,
+        "z_var_empirical": 2.0884081435768507,
+        "z_var_over_phi": 0.9884796368232986,
+        "fpr_poisson_by_abundance": {
+          "low": 0.07974999999999999,
+          "mid": 0.08835000000000001,
+          "high": 0.17254999999999998
+        },
+        "fpr_poisson_by_abundance_ql": {
+          "low": 0.048049999999999995,
+          "mid": 0.04865000000000001,
+          "high": 0.05135
+        }
+      },
+      {
+        "bin_um": 8.0,
+        "n_bin": 600,
+        "n_genes": 300,
+        "reps": 200,
+        "delta": 1.0,
+        "block_sd": 0.0,
+        "fpr_poisson": 0.9982500000000001,
+        "fpr_ql_moments": 0.9872333333333334,
+        "fpr_ql_shrunk": 0.9924333333333334,
+        "phi_median_true": 1.25785452322585,
+        "fpr_analytic_same_genes": 0.11337590169770673,
+        "z_var_empirical": 2.0267009264507667,
+        "z_var_over_phi": 0.7892479232239734,
+        "fpr_poisson_by_abundance": {
+          "low": 0.9975999999999999,
+          "mid": 0.998,
+          "high": 0.9991500000000001
+        },
+        "fpr_poisson_by_abundance_ql": {
+          "low": 0.9860499999999999,
+          "mid": 0.9910499999999999,
+          "high": 0.9846
+        }
+      },
+      {
+        "bin_um": 16.0,
+        "n_bin": 600,
+        "n_genes": 300,
+        "reps": 200,
+        "delta": 0.0,
+        "block_sd": 0.0,
+        "fpr_poisson": 0.19423333333333337,
+        "fpr_ql_moments": 0.05123333333333334,
+        "fpr_ql_shrunk": 0.06080000000000001,
+        "phi_median_true": 1.8101181333421448,
+        "fpr_analytic_same_genes": 0.19469656704292887,
+        "z_var_empirical": 4.2135383263894415,
+        "z_var_over_phi": 0.9934535884052719,
+        "fpr_poisson_by_abundance": {
+          "low": 0.13910000000000003,
+          "mid": 0.15535,
+          "high": 0.28825
+        },
+        "fpr_poisson_by_abundance_ql": {
+          "low": 0.05330000000000002,
+          "mid": 0.05000000000000001,
+          "high": 0.0504
+        }
+      },
+      {
+        "bin_um": 16.0,
+        "n_bin": 600,
+        "n_genes": 300,
+        "reps": 200,
+        "delta": 1.0,
+        "block_sd": 0.0,
+        "fpr_poisson": 0.9996499999999999,
+        "fpr_ql_moments": 0.9938166666666668,
+        "fpr_ql_shrunk": 0.9971999999999999,
+        "phi_median_true": 1.8101181333421448,
+        "fpr_analytic_same_genes": 0.19469656704292887,
+        "z_var_empirical": 4.536351902545766,
+        "z_var_over_phi": 0.917634699906104,
+        "fpr_poisson_by_abundance": {
+          "low": 0.9997499999999999,
+          "mid": 0.9994,
+          "high": 0.9998
+        },
+        "fpr_poisson_by_abundance_ql": {
+          "low": 0.9954500000000001,
+          "mid": 0.9937999999999999,
+          "high": 0.9922
+        }
+      },
+      {
+        "bin_um": 32.0,
+        "n_bin": 600,
+        "n_genes": 300,
+        "reps": 200,
+        "delta": 0.0,
+        "block_sd": 0.0,
+        "fpr_poisson": 0.34775000000000006,
+        "fpr_ql_moments": 0.0497,
+        "fpr_ql_shrunk": 0.06066666666666667,
+        "phi_median_true": 3.6705153085981737,
+        "fpr_analytic_same_genes": 0.34573364243160626,
+        "z_var_empirical": 10.307322326670844,
+        "z_var_over_phi": 0.9973310966682991,
+        "fpr_poisson_by_abundance": {
+          "low": 0.2711,
+          "mid": 0.30324999999999996,
+          "high": 0.4689
+        },
+        "fpr_poisson_by_abundance_ql": {
+          "low": 0.05045000000000001,
+          "mid": 0.04800000000000001,
+          "high": 0.05064999999999999
+        }
+      },
+      {
+        "bin_um": 32.0,
+        "n_bin": 600,
+        "n_genes": 300,
+        "reps": 200,
+        "delta": 1.0,
+        "block_sd": 0.0,
+        "fpr_poisson": 0.9999166666666668,
+        "fpr_ql_moments": 0.9972666666666666,
+        "fpr_ql_shrunk": 0.9990166666666667,
+        "phi_median_true": 3.6705153085981737,
+        "fpr_analytic_same_genes": 0.34573364243160626,
+        "z_var_empirical": 11.599029614317281,
+        "z_var_over_phi": 1.06684928479226,
+        "fpr_poisson_by_abundance": {
+          "low": 0.99985,
+          "mid": 0.9999000000000001,
+          "high": 1.0
+        },
+        "fpr_poisson_by_abundance_ql": {
+          "low": 0.99705,
+          "mid": 0.99715,
+          "high": 0.9976
+        }
+      },
+      {
+        "bin_um": 64.0,
+        "n_bin": 600,
+        "n_genes": 300,
+        "reps": 200,
+        "delta": 0.0,
+        "block_sd": 0.0,
+        "fpr_poisson": 0.5466166666666668,
+        "fpr_ql_moments": 0.04896666666666667,
+        "fpr_ql_shrunk": 0.057966666666666666,
+        "phi_median_true": 9.930333279773272,
+        "fpr_analytic_same_genes": 0.5451071507026659,
+        "z_var_empirical": 27.731633770941954,
+        "z_var_over_phi": 0.9885509152621349,
+        "fpr_poisson_by_abundance": {
+          "low": 0.4619,
+          "mid": 0.5153,
+          "high": 0.66265
+        },
+        "fpr_poisson_by_abundance_ql": {
+          "low": 0.04499999999999999,
+          "mid": 0.053000000000000005,
+          "high": 0.0489
+        }
+      },
+      {
+        "bin_um": 64.0,
+        "n_bin": 600,
+        "n_genes": 300,
+        "reps": 200,
+        "delta": 1.0,
+        "block_sd": 0.0,
+        "fpr_poisson": 1.0,
+        "fpr_ql_moments": 0.9991166666666668,
+        "fpr_ql_shrunk": 0.9997833333333334,
+        "phi_median_true": 9.930333279773272,
+        "fpr_analytic_same_genes": 0.5451071507026659,
+        "z_var_empirical": 33.20956186693448,
+        "z_var_over_phi": 1.166284507054738,
+        "fpr_poisson_by_abundance": {
+          "low": 1.0,
+          "mid": 1.0,
+          "high": 1.0
+        },
+        "fpr_poisson_by_abundance_ql": {
+          "low": 0.99815,
+          "mid": 0.9997499999999999,
+          "high": 0.99945
+        }
+      },
+      {
+        "bin_um": 128.0,
+        "n_bin": 600,
+        "n_genes": 300,
+        "reps": 200,
+        "delta": 0.0,
+        "block_sd": 0.0,
+        "fpr_poisson": 0.7258,
+        "fpr_ql_moments": 0.05126666666666666,
+        "fpr_ql_shrunk": 0.05976666666666666,
+        "phi_median_true": 31.400165348649804,
+        "fpr_analytic_same_genes": 0.7261995563125697,
+        "z_var_empirical": 76.91699618573882,
+        "z_var_over_phi": 1.0014392305645026,
+        "fpr_poisson_by_abundance": {
+          "low": 0.66695,
+          "mid": 0.70875,
+          "high": 0.8017
+        },
+        "fpr_poisson_by_abundance_ql": {
+          "low": 0.05210000000000001,
+          "mid": 0.05135000000000001,
+          "high": 0.05035000000000002
+        }
+      },
+      {
+        "bin_um": 128.0,
+        "n_bin": 600,
+        "n_genes": 300,
+        "reps": 200,
+        "delta": 1.0,
+        "block_sd": 0.0,
+        "fpr_poisson": 1.0,
+        "fpr_ql_moments": 0.99975,
+        "fpr_ql_shrunk": 0.99995,
+        "phi_median_true": 31.400165348649804,
+        "fpr_analytic_same_genes": 0.7261995563125697,
+        "z_var_empirical": 97.3760241924706,
+        "z_var_over_phi": 1.2133769482367243,
+        "fpr_poisson_by_abundance": {
+          "low": 1.0,
+          "mid": 1.0,
+          "high": 1.0
+        },
+        "fpr_poisson_by_abundance_ql": {
+          "low": 0.9993500000000001,
+          "mid": 1.0,
+          "high": 0.9999000000000001
+        }
+      },
+      {
+        "bin_um": 16.0,
+        "n_bin": 400,
+        "n_genes": 300,
+        "reps": 60,
+        "delta": 0.0,
+        "block_sd": 0.0,
+        "fpr_poisson": 0.1951111111111111,
+        "fpr_ql_moments": 0.05033333333333333,
+        "fpr_ql_shrunk": 0.06111111111111111,
+        "phi_median_true": 1.8101181333421448,
+        "fpr_analytic_same_genes": 0.19469656704292887,
+        "z_var_empirical": 3.911846308537774,
+        "z_var_over_phi": 0.9741560919676112,
+        "fpr_poisson_by_abundance": {
+          "low": 0.13716666666666666,
+          "mid": 0.157,
+          "high": 0.2911666666666666
+        },
+        "fpr_poisson_by_abundance_ql": {
+          "low": 0.05183333333333333,
+          "mid": 0.04616666666666666,
+          "high": 0.05299999999999999
+        },
+        "kind": "frailty"
+      },
+      {
+        "bin_um": 16.0,
+        "n_bin": 400,
+        "n_genes": 300,
+        "reps": 60,
+        "delta": 0.0,
+        "block_sd": 0.3,
+        "fpr_poisson": 0.4174444444444445,
+        "fpr_ql_moments": 0.21072222222222223,
+        "fpr_ql_shrunk": 0.20872222222222223,
+        "phi_median_true": 1.8101181333421448,
+        "fpr_analytic_same_genes": 0.19469656704292887,
+        "z_var_empirical": 3.9355068770129615,
+        "z_var_over_phi": 1.0069860591749455,
+        "fpr_poisson_by_abundance": {
+          "low": 0.31299999999999994,
+          "mid": 0.37566666666666665,
+          "high": 0.5636666666666666
+        },
+        "fpr_poisson_by_abundance_ql": {
+          "low": 0.17266666666666666,
+          "mid": 0.19916666666666663,
+          "high": 0.26033333333333336
+        },
+        "kind": "frailty"
+      },
+      {
+        "bin_um": 16.0,
+        "n_bin": 400,
+        "n_genes": 300,
+        "reps": 60,
+        "delta": 0.0,
+        "block_sd": 0.6,
+        "fpr_poisson": 0.302,
+        "fpr_ql_moments": 0.12188888888888888,
+        "fpr_ql_shrunk": 0.094,
+        "phi_median_true": 1.8101181333421448,
+        "fpr_analytic_same_genes": 0.19469656704292887,
+        "z_var_empirical": 5.113727974812613,
+        "z_var_over_phi": 1.1885475695795187,
+        "fpr_poisson_by_abundance": {
+          "low": 0.2193333333333333,
+          "mid": 0.267,
+          "high": 0.41966666666666663
+        },
+        "fpr_poisson_by_abundance_ql": {
+          "low": 0.10433333333333333,
+          "mid": 0.12283333333333331,
+          "high": 0.1385
+        },
+        "kind": "frailty"
+      },
+      {
+        "bin_um": 32.0,
+        "n_bin": 400,
+        "n_genes": 300,
+        "reps": 60,
+        "delta": 0.0,
+        "block_sd": 0.0,
+        "fpr_poisson": 0.3428888888888889,
+        "fpr_ql_moments": 0.04972222222222222,
+        "fpr_ql_shrunk": 0.05933333333333332,
+        "phi_median_true": 3.6705153085981737,
+        "fpr_analytic_same_genes": 0.34573364243160626,
+        "z_var_empirical": 9.228075550046574,
+        "z_var_over_phi": 0.971095002839368,
+        "fpr_poisson_by_abundance": {
+          "low": 0.26166666666666666,
+          "mid": 0.2993333333333334,
+          "high": 0.46766666666666656
+        },
+        "fpr_poisson_by_abundance_ql": {
+          "low": 0.04866666666666666,
+          "mid": 0.04966666666666666,
+          "high": 0.05083333333333332
+        },
+        "kind": "frailty"
+      },
+      {
+        "bin_um": 32.0,
+        "n_bin": 400,
+        "n_genes": 300,
+        "reps": 60,
+        "delta": 0.0,
+        "block_sd": 0.3,
+        "fpr_poisson": 0.4938888888888889,
+        "fpr_ql_moments": 0.1398888888888889,
+        "fpr_ql_shrunk": 0.12638888888888888,
+        "phi_median_true": 3.6705153085981737,
+        "fpr_analytic_same_genes": 0.34573364243160626,
+        "z_var_empirical": 9.835195533004589,
+        "z_var_over_phi": 1.0530705731781624,
+        "fpr_poisson_by_abundance": {
+          "low": 0.4071666666666666,
+          "mid": 0.4524999999999999,
+          "high": 0.6220000000000001
+        },
+        "fpr_poisson_by_abundance_ql": {
+          "low": 0.13733333333333334,
+          "mid": 0.13716666666666666,
+          "high": 0.14516666666666667
+        },
+        "kind": "frailty"
+      },
+      {
+        "bin_um": 32.0,
+        "n_bin": 400,
+        "n_genes": 300,
+        "reps": 60,
+        "delta": 0.0,
+        "block_sd": 0.6,
+        "fpr_poisson": 0.40655555555555556,
+        "fpr_ql_moments": 0.09377777777777778,
+        "fpr_ql_shrunk": 0.04616666666666667,
+        "phi_median_true": 3.6705153085981737,
+        "fpr_analytic_same_genes": 0.34573364243160626,
+        "z_var_empirical": 13.463257813716163,
+        "z_var_over_phi": 1.3076433717359832,
+        "fpr_poisson_by_abundance": {
+          "low": 0.3165,
+          "mid": 0.3735,
+          "high": 0.5296666666666666
+        },
+        "fpr_poisson_by_abundance_ql": {
+          "low": 0.08783333333333335,
+          "mid": 0.09300000000000001,
+          "high": 0.1005
+        },
+        "kind": "frailty"
+      },
+      {
+        "bin_um": 64.0,
+        "n_bin": 400,
+        "n_genes": 300,
+        "reps": 60,
+        "delta": 0.0,
+        "block_sd": 0.0,
+        "fpr_poisson": 0.5418888888888889,
+        "fpr_ql_moments": 0.05016666666666666,
+        "fpr_ql_shrunk": 0.058555555555555555,
+        "phi_median_true": 9.930333279773272,
+        "fpr_analytic_same_genes": 0.5451071507026659,
+        "z_var_empirical": 27.32986102888884,
+        "z_var_over_phi": 0.9799347972840652,
+        "fpr_poisson_by_abundance": {
+          "low": 0.4588333333333333,
+          "mid": 0.5135000000000001,
+          "high": 0.6533333333333333
+        },
+        "fpr_poisson_by_abundance_ql": {
+          "low": 0.04983333333333333,
+          "mid": 0.047666666666666656,
+          "high": 0.053
+        },
+        "kind": "frailty"
+      },
+      {
+        "bin_um": 64.0,
+        "n_bin": 400,
+        "n_genes": 300,
+        "reps": 60,
+        "delta": 0.0,
+        "block_sd": 0.3,
+        "fpr_poisson": 0.7334444444444443,
+        "fpr_ql_moments": 0.19799999999999998,
+        "fpr_ql_shrunk": 0.16527777777777777,
+        "phi_median_true": 9.930333279773272,
+        "fpr_analytic_same_genes": 0.5451071507026659,
+        "z_var_empirical": 26.432858993126942,
+        "z_var_over_phi": 1.065670683378255,
+        "fpr_poisson_by_abundance": {
+          "low": 0.6735000000000001,
+          "mid": 0.7105,
+          "high": 0.8163333333333334
+        },
+        "fpr_poisson_by_abundance_ql": {
+          "low": 0.18966666666666665,
+          "mid": 0.20166666666666663,
+          "high": 0.2026666666666667
+        },
+        "kind": "frailty"
+      },
+      {
+        "bin_um": 64.0,
+        "n_bin": 400,
+        "n_genes": 300,
+        "reps": 60,
+        "delta": 0.0,
+        "block_sd": 0.6,
+        "fpr_poisson": 0.9865000000000002,
+        "fpr_ql_moments": 0.8601111111111112,
+        "fpr_ql_shrunk": 0.8096111111111111,
+        "phi_median_true": 9.930333279773272,
+        "fpr_analytic_same_genes": 0.5451071507026659,
+        "z_var_empirical": 31.85809277387227,
+        "z_var_over_phi": 1.1670235876834492,
+        "fpr_poisson_by_abundance": {
+          "low": 0.9804999999999999,
+          "mid": 0.9895,
+          "high": 0.9895
+        },
+        "fpr_poisson_by_abundance_ql": {
+          "low": 0.8583333333333334,
+          "mid": 0.8955,
+          "high": 0.8264999999999999
+        },
+        "kind": "frailty"
+      }
+    ],
+    "blocked": [
+      {
+        "bin_um": 16.0,
+        "n_blocks": 50,
+        "n1": 336,
+        "n2": 464,
+        "n1_blocks": 21,
+        "n2_blocks": 29,
+        "block_sd": 0.5,
+        "reps": 60,
+        "delta": 0.0,
+        "fpr_poisson": 0.35777777777777775,
+        "fpr_ql_moments": 0.17327777777777778,
+        "fpr_blocklevel": 0.06349999999999999
+      },
+      {
+        "bin_um": 32.0,
+        "n_blocks": 50,
+        "n1": 336,
+        "n2": 464,
+        "n1_blocks": 21,
+        "n2_blocks": 29,
+        "block_sd": 0.5,
+        "reps": 60,
+        "delta": 0.0,
+        "fpr_poisson": 0.5685,
+        "fpr_ql_moments": 0.24155555555555555,
+        "fpr_blocklevel": 0.05283333333333333
+      },
+      {
+        "bin_um": 64.0,
+        "n_blocks": 50,
+        "n1": 336,
+        "n2": 464,
+        "n1_blocks": 21,
+        "n2_blocks": 29,
+        "block_sd": 0.5,
+        "reps": 60,
+        "delta": 0.0,
+        "fpr_poisson": 0.7533888888888889,
+        "fpr_ql_moments": 0.3194444444444444,
+        "fpr_blocklevel": 0.06883333333333333
+      }
+    ]
+  },
+  "P2": {
+    "section": "P2",
+    "ds": [
+      2,
+      4,
+      8,
+      16,
+      32,
+      64,
+      128,
+      256
+    ],
+    "n_cells": [
+      8731400.0,
+      2182850.0,
+      545913.0,
+      137051.0,
+      34580.0,
+      8761.0,
+      2246.0,
+      582.0
+    ],
+    "analytic": [
+      {
+        "bin_um": 2.0,
+        "n_bins_total": 8731400,
+        "n1": 2619420.0,
+        "n2": 2619420.0,
+        "n_genes": 2000,
+        "phi_median": 1.015178883347441,
+        "phi_mean": 1.0654278666417878,
+        "phi_q25": 1.0113623481359448,
+        "phi_q75": 1.023618009414362,
+        "phi_q95": 1.0806540145174686,
+        "fpr_poisson": 0.05174415350374595,
+        "fpr_poisson_mean": 0.05487069493220881,
+        "fpr_poisson_q75": 0.05271835410827186,
+        "fpr_ql": 0.05,
+        "power": {
+          "0.25": {
+            "poisson_median": 1.0,
+            "ql_median": 1.0,
+            "poisson_mean": 1.0,
+            "ql_mean": 1.0,
+            "loss_pp_median": 0.0,
+            "by_abundance": {
+              "low": {
+                "poisson": 1.0,
+                "ql": 1.0
+              },
+              "mid": {
+                "poisson": 1.0,
+                "ql": 1.0
+              },
+              "high": {
+                "poisson": 1.0,
+                "ql": 1.0
+              }
+            }
+          },
+          "0.5": {
+            "poisson_median": 1.0,
+            "ql_median": 1.0,
+            "poisson_mean": 1.0,
+            "ql_mean": 1.0,
+            "loss_pp_median": 0.0,
+            "by_abundance": {
+              "low": {
+                "poisson": 1.0,
+                "ql": 1.0
+              },
+              "mid": {
+                "poisson": 1.0,
+                "ql": 1.0
+              },
+              "high": {
+                "poisson": 1.0,
+                "ql": 1.0
+              }
+            }
+          },
+          "1.0": {
+            "poisson_median": 1.0,
+            "ql_median": 1.0,
+            "poisson_mean": 1.0,
+            "ql_mean": 1.0,
+            "loss_pp_median": 0.0,
+            "by_abundance": {
+              "low": {
+                "poisson": 1.0,
+                "ql": 1.0
+              },
+              "mid": {
+                "poisson": 1.0,
+                "ql": 1.0
+              },
+              "high": {
+                "poisson": 1.0,
+                "ql": 1.0
+              }
+            }
+          }
+        },
+        "n_equivalent_fraction": 0.985048070327277,
+        "n_equivalent_fraction_q25": 0.9769269307043511
+      },
+      {
+        "bin_um": 4.0,
+        "n_bins_total": 2182850,
+        "n1": 654855.0,
+        "n2": 654855.0,
+        "n_genes": 2000,
+        "phi_median": 1.0424468787861314,
+        "phi_mean": 1.1902079671302126,
+        "phi_q25": 1.0316296061488948,
+        "phi_q75": 1.0678427810070807,
+        "phi_q95": 1.2412845836215445,
+        "fpr_poisson": 0.05490264282049129,
+        "fpr_poisson_mean": 0.06161201611596232,
+        "fpr_poisson_q75": 0.057869972474046794,
+        "fpr_ql": 0.05,
+        "power": {
+          "0.25": {
+            "poisson_median": 1.0,
+            "ql_median": 1.0,
+            "poisson_mean": 1.0,
+            "ql_mean": 0.9999999999956778,
+            "loss_pp_median": 0.0,
+            "by_abundance": {
+              "low": {
+                "poisson": 1.0,
+                "ql": 1.0
+              },
+              "mid": {
+                "poisson": 1.0,
+                "ql": 0.999999999993667
+              },
+              "high": {
+                "poisson": 1.0,
+                "ql": 0.9999999999933628
+              }
+            }
+          },
+          "0.5": {
+            "poisson_median": 1.0,
+            "ql_median": 1.0,
+            "poisson_mean": 1.0,
+            "ql_mean": 1.0,
+            "loss_pp_median": 0.0,
+            "by_abundance": {
+              "low": {
+                "poisson": 1.0,
+                "ql": 1.0
+              },
+              "mid": {
+                "poisson": 1.0,
+                "ql": 1.0
+              },
+              "high": {
+                "poisson": 1.0,
+                "ql": 1.0
+              }
+            }
+          },
+          "1.0": {
+            "poisson_median": 1.0,
+            "ql_median": 1.0,
+            "poisson_mean": 1.0,
+            "ql_mean": 1.0,
+            "loss_pp_median": 0.0,
+            "by_abundance": {
+              "low": {
+                "poisson": 1.0,
+                "ql": 1.0
+              },
+              "mid": {
+                "poisson": 1.0,
+                "ql": 1.0
+              },
+              "high": {
+                "poisson": 1.0,
+                "ql": 1.0
+              }
+            }
+          }
+        },
+        "n_equivalent_fraction": 0.9592814947524833,
+        "n_equivalent_fraction_q25": 0.9364674442953577
+      },
+      {
+        "bin_um": 8.0,
+        "n_bins_total": 545913,
+        "n1": 163773.9,
+        "n2": 163773.9,
+        "n_genes": 2000,
+        "phi_median": 1.1320757213929356,
+        "phi_mean": 1.5836500152705997,
+        "phi_q25": 1.094645722296292,
+        "phi_q75": 1.2171376732208161,
+        "phi_q95": 1.7953920768435137,
+        "fpr_poisson": 0.06546229163330763,
+        "fpr_poisson_mean": 0.08038504077714202,
+        "fpr_poisson_q75": 0.07564176718458349,
+        "fpr_ql": 0.05,
+        "power": {
+          "0.25": {
+            "poisson_median": 1.0,
+            "ql_median": 1.0,
+            "poisson_mean": 1.0,
+            "ql_mean": 0.9999936152351163,
+            "loss_pp_median": 0.0,
+            "by_abundance": {
+              "low": {
+                "poisson": 1.0,
+                "ql": 1.0
+              },
+              "mid": {
+                "poisson": 1.0,
+                "ql": 0.9999908061397041
+              },
+              "high": {
+                "poisson": 1.0,
+                "ql": 0.9999900341967716
+              }
+            }
+          },
+          "0.5": {
+            "poisson_median": 1.0,
+            "ql_median": 1.0,
+            "poisson_mean": 1.0,
+            "ql_mean": 0.9999999999999991,
+            "loss_pp_median": 0.0,
+            "by_abundance": {
+              "low": {
+                "poisson": 1.0,
+                "ql": 1.0
+              },
+              "mid": {
+                "poisson": 1.0,
+                "ql": 0.9999999999999977
+              },
+              "high": {
+                "poisson": 1.0,
+                "ql": 0.9999999999999998
+              }
+            }
+          },
+          "1.0": {
+            "poisson_median": 1.0,
+            "ql_median": 1.0,
+            "poisson_mean": 1.0,
+            "ql_mean": 1.0,
+            "loss_pp_median": 0.0,
+            "by_abundance": {
+              "low": {
+                "poisson": 1.0,
+                "ql": 1.0
+              },
+              "mid": {
+                "poisson": 1.0,
+                "ql": 1.0
+              },
+              "high": {
+                "poisson": 1.0,
+                "ql": 1.0
+              }
+            }
+          }
+        },
+        "n_equivalent_fraction": 0.883333138635808,
+        "n_equivalent_fraction_q25": 0.8215997482631651
+      },
+      {
+        "bin_um": 16.0,
+        "n_bins_total": 137051,
+        "n1": 41115.299999999996,
+        "n2": 41115.299999999996,
+        "n_genes": 2000,
+        "phi_median": 1.4292102240129116,
+        "phi_mean": 2.7000842061018595,
+        "phi_q25": 1.3027345124396938,
+        "phi_q75": 1.7194634320167113,
+        "phi_q95": 3.462084449982281,
+        "fpr_poisson": 0.101118116252636,
+        "fpr_poisson_mean": 0.13059881110212687,
+        "fpr_poisson_q75": 0.13499492495410226,
+        "fpr_ql": 0.05,
+        "power": {
+          "0.25": {
+            "poisson_median": 1.0,
+            "ql_median": 1.0,
+            "poisson_mean": 1.0,
+            "ql_mean": 0.9997167096834891,
+            "loss_pp_median": 0.0,
+            "by_abundance": {
+              "low": {
+                "poisson": 1.0,
+                "ql": 0.9999999999997695
+              },
+              "mid": {
+                "poisson": 1.0,
+                "ql": 0.9996549564547061
+              },
+              "high": {
+                "poisson": 1.0,
+                "ql": 0.9994948399577225
+              }
+            }
+          },
+          "0.5": {
+            "poisson_median": 1.0,
+            "ql_median": 1.0,
+            "poisson_mean": 1.0,
+            "ql_mean": 0.9999998333343081,
+            "loss_pp_median": 0.0,
+            "by_abundance": {
+              "low": {
+                "poisson": 1.0,
+                "ql": 1.0
+              },
+              "mid": {
+                "poisson": 1.0,
+                "ql": 0.9999995597682115
+              },
+              "high": {
+                "poisson": 1.0,
+                "ql": 0.9999999403952238
+              }
+            }
+          },
+          "1.0": {
+            "poisson_median": 1.0,
+            "ql_median": 1.0,
+            "poisson_mean": 1.0,
+            "ql_mean": 1.0,
+            "loss_pp_median": 0.0,
+            "by_abundance": {
+              "low": {
+                "poisson": 1.0,
+                "ql": 1.0
+              },
+              "mid": {
+                "poisson": 1.0,
+                "ql": 1.0
+              },
+              "high": {
+                "poisson": 1.0,
+                "ql": 1.0
+              }
+            }
+          }
+        },
+        "n_equivalent_fraction": 0.6996871301360137,
+        "n_equivalent_fraction_q25": 0.5815767781975734
+      },
+      {
+        "bin_um": 32.0,
+        "n_bins_total": 34580,
+        "n1": 10374.0,
+        "n2": 10374.0,
+        "n_genes": 2000,
+        "phi_median": 2.414610364646254,
+        "phi_mean": 5.7302077809746335,
+        "phi_q25": 2.0022459656325657,
+        "phi_q75": 3.375108728992797,
+        "phi_q95": 8.72544911292523,
+        "fpr_poisson": 0.20719433279969168,
+        "fpr_poisson_mean": 0.24619047249443451,
+        "fpr_poisson_q75": 0.28603863820494335,
+        "fpr_ql": 0.05,
+        "power": {
+          "0.25": {
+            "poisson_median": 1.0,
+            "ql_median": 1.0,
+            "poisson_mean": 1.0,
+            "ql_mean": 0.9989515694349212,
+            "loss_pp_median": 0.0,
+            "by_abundance": {
+              "low": {
+                "poisson": 1.0,
+                "ql": 0.9999974921509555
+              },
+              "mid": {
+                "poisson": 1.0,
+                "ql": 0.9989158533016856
+              },
+              "high": {
+                "poisson": 1.0,
+                "ql": 0.9979398460254216
+              }
+            }
+          },
+          "0.5": {
+            "poisson_median": 1.0,
+            "ql_median": 1.0,
+            "poisson_mean": 1.0,
+            "ql_mean": 0.9999565105881649,
+            "loss_pp_median": 0.0,
+            "by_abundance": {
+              "low": {
+                "poisson": 1.0,
+                "ql": 1.0
+              },
+              "mid": {
+                "poisson": 1.0,
+                "ql": 0.9999009098175876
+              },
+              "high": {
+                "poisson": 1.0,
+                "ql": 0.999968640132131
+              }
+            }
+          },
+          "1.0": {
+            "poisson_median": 1.0,
+            "ql_median": 1.0,
+            "poisson_mean": 1.0,
+            "ql_mean": 0.9999999998333738,
+            "loss_pp_median": 0.0,
+            "by_abundance": {
+              "low": {
+                "poisson": 1.0,
+                "ql": 1.0
+              },
+              "mid": {
+                "poisson": 1.0,
+                "ql": 0.9999999995008101
+              },
+              "high": {
+                "poisson": 1.0,
+                "ql": 0.9999999999995608
+              }
+            }
+          }
+        },
+        "n_equivalent_fraction": 0.41414549305412396,
+        "n_equivalent_fraction_q25": 0.2962869067911606
+      },
+      {
+        "bin_um": 64.0,
+        "n_bins_total": 8761,
+        "n1": 2628.2999999999997,
+        "n2": 2628.2999999999997,
+        "n_genes": 2000,
+        "phi_median": 5.573752017992619,
+        "phi_mean": 14.073442355517244,
+        "phi_q25": 4.255394746757135,
+        "phi_q75": 8.587731418970003,
+        "phi_q95": 24.469212844878957,
+        "fpr_poisson": 0.4064348565452134,
+        "fpr_poisson_mean": 0.4336170375913793,
+        "fpr_poisson_q75": 0.5036106875226625,
+        "fpr_ql": 0.05,
+        "power": {
+          "0.25": {
+            "poisson_median": 1.0,
+            "ql_median": 0.9999999999987936,
+            "poisson_mean": 1.0,
+            "ql_mean": 0.9964243016546311,
+            "loss_pp_median": 1.206368338557695e-10,
+            "by_abundance": {
+              "low": {
+                "poisson": 1.0,
+                "ql": 0.9994064319164446
+              },
+              "mid": {
+                "poisson": 1.0,
+                "ql": 0.9966703990468342
+              },
+              "high": {
+                "poisson": 1.0,
+                "ql": 0.9931912268119453
+              }
+            }
+          },
+          "0.5": {
+            "poisson_median": 1.0,
+            "ql_median": 1.0,
+            "poisson_mean": 1.0,
+            "ql_mean": 0.9996384593767941,
+            "loss_pp_median": 0.0,
+            "by_abundance": {
+              "low": {
+                "poisson": 1.0,
+                "ql": 0.9999998316643229
+              },
+              "mid": {
+                "poisson": 1.0,
+                "ql": 0.9994496962308514
+              },
+              "high": {
+                "poisson": 1.0,
+                "ql": 0.9994655910623229
+              }
+            }
+          },
+          "1.0": {
+            "poisson_median": 1.0,
+            "ql_median": 1.0,
+            "poisson_mean": 1.0,
+            "ql_mean": 0.9999985696297746,
+            "loss_pp_median": 0.0,
+            "by_abundance": {
+              "low": {
+                "poisson": 1.0,
+                "ql": 1.0
+              },
+              "mid": {
+                "poisson": 1.0,
+                "ql": 0.9999960160741032
+              },
+              "high": {
+                "poisson": 1.0,
+                "ql": 0.9999996945016855
+              }
+            }
+          }
+        },
+        "n_equivalent_fraction": 0.1794123751416451,
+        "n_equivalent_fraction_q25": 0.1164451881932861
+      },
+      {
+        "bin_um": 128.0,
+        "n_bins_total": 2246,
+        "n1": 673.8,
+        "n2": 673.8,
+        "n_genes": 2000,
+        "phi_median": 15.815714301139362,
+        "phi_mean": 38.48493137526356,
+        "phi_q25": 11.635345246031406,
+        "phi_q75": 25.04764174106011,
+        "phi_q95": 72.4895758267548,
+        "fpr_poisson": 0.6221274600036351,
+        "fpr_poisson_mean": 0.6345464874719651,
+        "fpr_poisson_q75": 0.6953391370458115,
+        "fpr_ql": 0.05,
+        "power": {
+          "0.25": {
+            "poisson_median": 1.0,
+            "ql_median": 0.9996048612376984,
+            "poisson_mean": 1.0,
+            "ql_mean": 0.985501718015533,
+            "loss_pp_median": 0.03951387623015723,
+            "by_abundance": {
+              "low": {
+                "poisson": 1.0,
+                "ql": 0.9936058603922462
+              },
+              "mid": {
+                "poisson": 1.0,
+                "ql": 0.9873181974210286
+              },
+              "high": {
+                "poisson": 1.0,
+                "ql": 0.9755662004048223
+              }
+            }
+          },
+          "0.5": {
+            "poisson_median": 1.0,
+            "ql_median": 1.0,
+            "poisson_mean": 1.0,
+            "ql_mean": 0.9980970850008254,
+            "loss_pp_median": 0.0,
+            "by_abundance": {
+              "low": {
+                "poisson": 1.0,
+                "ql": 0.9996488921227602
+              },
+              "mid": {
+                "poisson": 1.0,
+                "ql": 0.9979894670103566
+              },
+              "high": {
+                "poisson": 1.0,
+                "ql": 0.99665072741721
+              }
+            }
+          },
+          "1.0": {
+            "poisson_median": 1.0,
+            "ql_median": 1.0,
+            "poisson_mean": 1.0,
+            "ql_mean": 0.9999461760350411,
+            "loss_pp_median": 0.0,
+            "by_abundance": {
+              "low": {
+                "poisson": 1.0,
+                "ql": 0.9999999839845397
+              },
+              "mid": {
+                "poisson": 1.0,
+                "ql": 0.9999328591789999
+              },
+              "high": {
+                "poisson": 1.0,
+                "ql": 0.9999056241441461
+              }
+            }
+          }
+        },
+        "n_equivalent_fraction": 0.06322831494391878,
+        "n_equivalent_fraction_q25": 0.03992410533262382
+      },
+      {
+        "bin_um": 256.0,
+        "n_bins_total": 582,
+        "n1": 174.6,
+        "n2": 174.6,
+        "n_genes": 2000,
+        "phi_median": 50.391528549263754,
+        "phi_mean": 114.50972194837111,
+        "phi_q25": 37.1976547808305,
+        "phi_q75": 80.52917848126407,
+        "phi_q95": 233.83259357352253,
+        "fpr_poisson": 0.7824698357333253,
+        "fpr_poisson_mean": 0.7884171660619362,
+        "fpr_poisson_q75": 0.8271100909001523,
+        "fpr_ql": 0.05,
+        "power": {
+          "0.25": {
+            "poisson_median": 1.0,
+            "ql_median": 0.8423232665211138,
+            "poisson_mean": 1.0,
+            "ql_mean": 0.8183098206436373,
+            "loss_pp_median": 15.767673347888621,
+            "by_abundance": {
+              "low": {
+                "poisson": 1.0,
+                "ql": 0.8479383913039172
+              },
+              "mid": {
+                "poisson": 1.0,
+                "ql": 0.8260038287447227
+              },
+              "high": {
+                "poisson": 1.0,
+                "ql": 0.7809312019742223
+              }
+            }
+          },
+          "0.5": {
+            "poisson_median": 1.0,
+            "ql_median": 0.9999637705754673,
+            "poisson_mean": 1.0,
+            "ql_mean": 0.9907015713989139,
+            "loss_pp_median": 0.003622942453274103,
+            "by_abundance": {
+              "low": {
+                "poisson": 1.0,
+                "ql": 0.9964269577923122
+              },
+              "mid": {
+                "poisson": 1.0,
+                "ql": 0.991725521685156
+              },
+              "high": {
+                "poisson": 1.0,
+                "ql": 0.9839421005801149
+              }
+            }
+          },
+          "1.0": {
+            "poisson_median": 1.0,
+            "ql_median": 1.0,
+            "poisson_mean": 1.0,
+            "ql_mean": 0.999025531611459,
+            "loss_pp_median": 0.0,
+            "by_abundance": {
+              "low": {
+                "poisson": 1.0,
+                "ql": 0.9998125064211683
+              },
+              "mid": {
+                "poisson": 1.0,
+                "ql": 0.9988681266687314
+              },
+              "high": {
+                "poisson": 1.0,
+                "ql": 0.9983950164443769
+              }
+            }
+          }
+        },
+        "n_equivalent_fraction": 0.019844646573929134,
+        "n_equivalent_fraction_q25": 0.012417861711163259
+      }
+    ],
+    "simulated": [
+      {
+        "bin_um": 8.0,
+        "n_bin": 600,
+        "n_genes": 300,
+        "reps": 200,
+        "delta": 0.0,
+        "block_sd": 0.0,
+        "fpr_poisson": 0.14005,
+        "fpr_ql_moments": 0.0506,
+        "fpr_ql_shrunk": 0.06045,
+        "phi_median_true": 1.3934039626969046,
+        "fpr_analytic_same_genes": 0.14108318135431094,
+        "z_var_empirical": 3.6117743586002393,
+        "z_var_over_phi": 0.9873375783799785,
+        "fpr_poisson_by_abundance": {
+          "low": 0.10219999999999997,
+          "mid": 0.09895,
+          "high": 0.21899999999999997
+        },
+        "fpr_poisson_by_abundance_ql": {
+          "low": 0.05205,
+          "mid": 0.04905,
+          "high": 0.05069999999999999
+        }
+      },
+      {
+        "bin_um": 8.0,
+        "n_bin": 600,
+        "n_genes": 300,
+        "reps": 200,
+        "delta": 1.0,
+        "block_sd": 0.0,
+        "fpr_poisson": 0.9992000000000002,
+        "fpr_ql_moments": 0.9869500000000001,
+        "fpr_ql_shrunk": 0.99285,
+        "phi_median_true": 1.3934039626969046,
+        "fpr_analytic_same_genes": 0.14108318135431094,
+        "z_var_empirical": 3.9328460595164656,
+        "z_var_over_phi": 0.8378266613132784,
+        "fpr_poisson_by_abundance": {
+          "low": 0.9991,
+          "mid": 1.0,
+          "high": 0.9984999999999999
+        },
+        "fpr_poisson_by_abundance_ql": {
+          "low": 0.9893000000000001,
+          "mid": 0.99995,
+          "high": 0.9715999999999998
+        }
+      },
+      {
+        "bin_um": 16.0,
+        "n_bin": 600,
+        "n_genes": 300,
+        "reps": 200,
+        "delta": 0.0,
+        "block_sd": 0.0,
+        "fpr_poisson": 0.25494999999999995,
+        "fpr_ql_moments": 0.050583333333333334,
+        "fpr_ql_shrunk": 0.06276666666666667,
+        "phi_median_true": 2.319790993753037,
+        "fpr_analytic_same_genes": 0.2535016725965728,
+        "z_var_empirical": 8.554871743817486,
+        "z_var_over_phi": 0.9974302680138976,
+        "fpr_poisson_by_abundance": {
+          "low": 0.18275,
+          "mid": 0.2077,
+          "high": 0.37439999999999996
+        },
+        "fpr_poisson_by_abundance_ql": {
+          "low": 0.0504,
+          "mid": 0.051699999999999996,
+          "high": 0.04965000000000001
+        }
+      },
+      {
+        "bin_um": 16.0,
+        "n_bin": 600,
+        "n_genes": 300,
+        "reps": 200,
+        "delta": 1.0,
+        "block_sd": 0.0,
+        "fpr_poisson": 0.9995999999999999,
+        "fpr_ql_moments": 0.9917166666666666,
+        "fpr_ql_shrunk": 0.9954166666666666,
+        "phi_median_true": 2.319790993753037,
+        "fpr_analytic_same_genes": 0.2535016725965728,
+        "z_var_empirical": 9.86386804276856,
+        "z_var_over_phi": 0.983690107496941,
+        "fpr_poisson_by_abundance": {
+          "low": 0.9998,
+          "mid": 1.0,
+          "high": 0.9990000000000001
+        },
+        "fpr_poisson_by_abundance_ql": {
+          "low": 0.9945,
+          "mid": 1.0,
+          "high": 0.98065
+        }
+      },
+      {
+        "bin_um": 32.0,
+        "n_bin": 600,
+        "n_genes": 300,
+        "reps": 200,
+        "delta": 0.0,
+        "block_sd": 0.0,
+        "fpr_poisson": 0.4372666666666667,
+        "fpr_ql_moments": 0.049883333333333335,
+        "fpr_ql_shrunk": 0.06261666666666667,
+        "phi_median_true": 5.258115569353832,
+        "fpr_analytic_same_genes": 0.4372457814420089,
+        "z_var_empirical": 20.691166975944327,
+        "z_var_over_phi": 0.9912246370298321,
+        "fpr_poisson_by_abundance": {
+          "low": 0.35174999999999995,
+          "mid": 0.38789999999999997,
+          "high": 0.57215
+        },
+        "fpr_poisson_by_abundance_ql": {
+          "low": 0.04955000000000001,
+          "mid": 0.05085,
+          "high": 0.049249999999999995
+        }
+      },
+      {
+        "bin_um": 32.0,
+        "n_bin": 600,
+        "n_genes": 300,
+        "reps": 200,
+        "delta": 1.0,
+        "block_sd": 0.0,
+        "fpr_poisson": 0.9999666666666667,
+        "fpr_ql_moments": 0.9956499999999999,
+        "fpr_ql_shrunk": 0.9980666666666668,
+        "phi_median_true": 5.258115569353832,
+        "fpr_analytic_same_genes": 0.4372457814420089,
+        "z_var_empirical": 27.701452913512544,
+        "z_var_over_phi": 1.123940752296412,
+        "fpr_poisson_by_abundance": {
+          "low": 1.0,
+          "mid": 1.0,
+          "high": 0.9999000000000001
+        },
+        "fpr_poisson_by_abundance_ql": {
+          "low": 0.99815,
+          "mid": 1.0,
+          "high": 0.9887999999999999
+        }
+      },
+      {
+        "bin_um": 64.0,
+        "n_bin": 600,
+        "n_genes": 300,
+        "reps": 200,
+        "delta": 0.0,
+        "block_sd": 0.0,
+        "fpr_poisson": 0.6344333333333333,
+        "fpr_ql_moments": 0.050916666666666666,
+        "fpr_ql_shrunk": 0.06228333333333334,
+        "phi_median_true": 14.814624890855468,
+        "fpr_analytic_same_genes": 0.6318605000260042,
+        "z_var_empirical": 52.734752975208,
+        "z_var_over_phi": 0.99649767577659,
+        "fpr_poisson_by_abundance": {
+          "low": 0.5611,
+          "mid": 0.60875,
+          "high": 0.7334499999999999
+        },
+        "fpr_poisson_by_abundance_ql": {
+          "low": 0.0526,
+          "mid": 0.049850000000000005,
+          "high": 0.050300000000000004
+        }
+      },
+      {
+        "bin_um": 64.0,
+        "n_bin": 600,
+        "n_genes": 300,
+        "reps": 200,
+        "delta": 1.0,
+        "block_sd": 0.0,
+        "fpr_poisson": 1.0,
+        "fpr_ql_moments": 0.9984500000000001,
+        "fpr_ql_shrunk": 0.9993833333333333,
+        "phi_median_true": 14.814624890855468,
+        "fpr_analytic_same_genes": 0.6318605000260042,
+        "z_var_empirical": 68.9569707858402,
+        "z_var_over_phi": 1.1858329876597278,
+        "fpr_poisson_by_abundance": {
+          "low": 1.0,
+          "mid": 1.0,
+          "high": 1.0
+        },
+        "fpr_poisson_by_abundance_ql": {
+          "low": 0.99985,
+          "mid": 1.0,
+          "high": 0.9954999999999999
+        }
+      },
+      {
+        "bin_um": 128.0,
+        "n_bin": 600,
+        "n_genes": 300,
+        "reps": 200,
+        "delta": 0.0,
+        "block_sd": 0.0,
+        "fpr_poisson": 0.7826500000000001,
+        "fpr_ql_moments": 0.051133333333333336,
+        "fpr_ql_shrunk": 0.06216666666666666,
+        "phi_median_true": 44.70622024745378,
+        "fpr_analytic_same_genes": 0.7807574922650612,
+        "z_var_empirical": 154.15571527704577,
+        "z_var_over_phi": 1.0029566434523678,
+        "fpr_poisson_by_abundance": {
+          "low": 0.7360499999999998,
+          "mid": 0.7648999999999998,
+          "high": 0.847
+        },
+        "fpr_poisson_by_abundance_ql": {
+          "low": 0.05040000000000001,
+          "mid": 0.05205,
+          "high": 0.05095000000000001
+        }
+      },
+      {
+        "bin_um": 128.0,
+        "n_bin": 600,
+        "n_genes": 300,
+        "reps": 200,
+        "delta": 1.0,
+        "block_sd": 0.0,
+        "fpr_poisson": 1.0,
+        "fpr_ql_moments": 0.9995333333333334,
+        "fpr_ql_shrunk": 0.9999166666666668,
+        "phi_median_true": 44.70622024745378,
+        "fpr_analytic_same_genes": 0.7807574922650612,
+        "z_var_empirical": 188.46306597191662,
+        "z_var_over_phi": 1.2152296822138378,
+        "fpr_poisson_by_abundance": {
+          "low": 1.0,
+          "mid": 1.0,
+          "high": 1.0
+        },
+        "fpr_poisson_by_abundance_ql": {
+          "low": 1.0,
+          "mid": 1.0,
+          "high": 0.9986
+        }
+      },
+      {
+        "bin_um": 16.0,
+        "n_bin": 400,
+        "n_genes": 300,
+        "reps": 60,
+        "delta": 0.0,
+        "block_sd": 0.0,
+        "fpr_poisson": 0.25077777777777777,
+        "fpr_ql_moments": 0.04738888888888888,
+        "fpr_ql_shrunk": 0.06244444444444445,
+        "phi_median_true": 2.319790993753037,
+        "fpr_analytic_same_genes": 0.2535016725965728,
+        "z_var_empirical": 8.596247968691,
+        "z_var_over_phi": 0.9649274023121113,
+        "fpr_poisson_by_abundance": {
+          "low": 0.17983333333333332,
+          "mid": 0.20066666666666663,
+          "high": 0.37183333333333324
+        },
+        "fpr_poisson_by_abundance_ql": {
+          "low": 0.04816666666666666,
+          "mid": 0.044499999999999984,
+          "high": 0.049499999999999995
+        },
+        "kind": "frailty"
+      },
+      {
+        "bin_um": 16.0,
+        "n_bin": 400,
+        "n_genes": 300,
+        "reps": 60,
+        "delta": 0.0,
+        "block_sd": 0.3,
+        "fpr_poisson": 0.3281666666666666,
+        "fpr_ql_moments": 0.09333333333333334,
+        "fpr_ql_shrunk": 0.09088888888888888,
+        "phi_median_true": 2.319790993753037,
+        "fpr_analytic_same_genes": 0.2535016725965728,
+        "z_var_empirical": 8.903646033831738,
+        "z_var_over_phi": 1.0207859268907462,
+        "fpr_poisson_by_abundance": {
+          "low": 0.248,
+          "mid": 0.2771666666666666,
+          "high": 0.4593333333333333
+        },
+        "fpr_poisson_by_abundance_ql": {
+          "low": 0.08850000000000004,
+          "mid": 0.0876666666666667,
+          "high": 0.10383333333333336
+        },
+        "kind": "frailty"
+      },
+      {
+        "bin_um": 16.0,
+        "n_bin": 400,
+        "n_genes": 300,
+        "reps": 60,
+        "delta": 0.0,
+        "block_sd": 0.6,
+        "fpr_poisson": 0.2777222222222222,
+        "fpr_ql_moments": 0.07583333333333332,
+        "fpr_ql_shrunk": 0.05294444444444445,
+        "phi_median_true": 2.319790993753037,
+        "fpr_analytic_same_genes": 0.2535016725965728,
+        "z_var_empirical": 9.333510883624559,
+        "z_var_over_phi": 1.075156947973079,
+        "fpr_poisson_by_abundance": {
+          "low": 0.2058333333333333,
+          "mid": 0.22766666666666666,
+          "high": 0.39966666666666656
+        },
+        "fpr_poisson_by_abundance_ql": {
+          "low": 0.07533333333333332,
+          "mid": 0.07383333333333333,
+          "high": 0.07833333333333332
+        },
+        "kind": "frailty"
+      },
+      {
+        "bin_um": 32.0,
+        "n_bin": 400,
+        "n_genes": 300,
+        "reps": 60,
+        "delta": 0.0,
+        "block_sd": 0.0,
+        "fpr_poisson": 0.43538888888888894,
+        "fpr_ql_moments": 0.04955555555555555,
+        "fpr_ql_shrunk": 0.06094444444444444,
+        "phi_median_true": 5.258115569353832,
+        "fpr_analytic_same_genes": 0.4372457814420089,
+        "z_var_empirical": 20.948698248763655,
+        "z_var_over_phi": 0.9791223801862092,
+        "fpr_poisson_by_abundance": {
+          "low": 0.35166666666666674,
+          "mid": 0.3893333333333333,
+          "high": 0.5651666666666667
+        },
+        "fpr_poisson_by_abundance_ql": {
+          "low": 0.04983333333333333,
+          "mid": 0.05149999999999998,
+          "high": 0.047333333333333324
+        },
+        "kind": "frailty"
+      },
+      {
+        "bin_um": 32.0,
+        "n_bin": 400,
+        "n_genes": 300,
+        "reps": 60,
+        "delta": 0.0,
+        "block_sd": 0.3,
+        "fpr_poisson": 0.5888888888888889,
+        "fpr_ql_moments": 0.14738888888888887,
+        "fpr_ql_shrunk": 0.1322777777777778,
+        "phi_median_true": 5.258115569353832,
+        "fpr_analytic_same_genes": 0.4372457814420089,
+        "z_var_empirical": 22.56037881791164,
+        "z_var_over_phi": 1.05760576843379,
+        "fpr_poisson_by_abundance": {
+          "low": 0.5096666666666666,
+          "mid": 0.5553333333333333,
+          "high": 0.7016666666666667
+        },
+        "fpr_poisson_by_abundance_ql": {
+          "low": 0.14833333333333334,
+          "mid": 0.1481666666666667,
+          "high": 0.14566666666666667
+        },
+        "kind": "frailty"
+      },
+      {
+        "bin_um": 32.0,
+        "n_bin": 400,
+        "n_genes": 300,
+        "reps": 60,
+        "delta": 0.0,
+        "block_sd": 0.6,
+        "fpr_poisson": 0.8270555555555554,
+        "fpr_ql_moments": 0.4451666666666667,
+        "fpr_ql_shrunk": 0.2954444444444444,
+        "phi_median_true": 5.258115569353832,
+        "fpr_analytic_same_genes": 0.4372457814420089,
+        "z_var_empirical": 31.52863613164016,
+        "z_var_over_phi": 1.2996083839784687,
+        "fpr_poisson_by_abundance": {
+          "low": 0.7823333333333331,
+          "mid": 0.8153333333333334,
+          "high": 0.8835000000000001
+        },
+        "fpr_poisson_by_abundance_ql": {
+          "low": 0.44316666666666665,
+          "mid": 0.45733333333333326,
+          "high": 0.43499999999999994
+        },
+        "kind": "frailty"
+      },
+      {
+        "bin_um": 64.0,
+        "n_bin": 400,
+        "n_genes": 300,
+        "reps": 60,
+        "delta": 0.0,
+        "block_sd": 0.0,
+        "fpr_poisson": 0.6357777777777778,
+        "fpr_ql_moments": 0.04683333333333333,
+        "fpr_ql_shrunk": 0.057388888888888885,
+        "phi_median_true": 14.814624890855468,
+        "fpr_analytic_same_genes": 0.6318605000260042,
+        "z_var_empirical": 52.63516955040181,
+        "z_var_over_phi": 0.9698536648822715,
+        "fpr_poisson_by_abundance": {
+          "low": 0.5541666666666667,
+          "mid": 0.6101666666666666,
+          "high": 0.7430000000000001
+        },
+        "fpr_poisson_by_abundance_ql": {
+          "low": 0.049166666666666664,
+          "mid": 0.04883333333333334,
+          "high": 0.0425
+        },
+        "kind": "frailty"
+      },
+      {
+        "bin_um": 64.0,
+        "n_bin": 400,
+        "n_genes": 300,
+        "reps": 60,
+        "delta": 0.0,
+        "block_sd": 0.3,
+        "fpr_poisson": 0.7152222222222222,
+        "fpr_ql_moments": 0.11444444444444445,
+        "fpr_ql_shrunk": 0.09044444444444445,
+        "phi_median_true": 14.814624890855468,
+        "fpr_analytic_same_genes": 0.6318605000260042,
+        "z_var_empirical": 63.406280297799704,
+        "z_var_over_phi": 1.1196722525175895,
+        "fpr_poisson_by_abundance": {
+          "low": 0.6551666666666667,
+          "mid": 0.6911666666666666,
+          "high": 0.7993333333333336
+        },
+        "fpr_poisson_by_abundance_ql": {
+          "low": 0.113,
+          "mid": 0.11516666666666668,
+          "high": 0.11516666666666668
+        },
+        "kind": "frailty"
+      },
+      {
+        "bin_um": 64.0,
+        "n_bin": 400,
+        "n_genes": 300,
+        "reps": 60,
+        "delta": 0.0,
+        "block_sd": 0.6,
+        "fpr_poisson": 0.9970000000000001,
+        "fpr_ql_moments": 0.9386111111111113,
+        "fpr_ql_shrunk": 0.9145000000000001,
+        "phi_median_true": 14.814624890855468,
+        "fpr_analytic_same_genes": 0.6318605000260042,
+        "z_var_empirical": 65.5648459908364,
+        "z_var_over_phi": 1.2789677248787776,
+        "fpr_poisson_by_abundance": {
+          "low": 0.9968333333333333,
+          "mid": 0.9978333333333333,
+          "high": 0.9963333333333334
+        },
+        "fpr_poisson_by_abundance_ql": {
+          "low": 0.9576666666666667,
+          "mid": 0.9611666666666667,
+          "high": 0.8969999999999999
+        },
+        "kind": "frailty"
+      }
+    ],
+    "blocked": [
+      {
+        "bin_um": 16.0,
+        "n_blocks": 50,
+        "n1": 336,
+        "n2": 464,
+        "n1_blocks": 21,
+        "n2_blocks": 29,
+        "block_sd": 0.5,
+        "reps": 60,
+        "delta": 0.0,
+        "fpr_poisson": 0.4948333333333333,
+        "fpr_ql_moments": 0.25599999999999995,
+        "fpr_blocklevel": 0.06427777777777777
+      },
+      {
+        "bin_um": 32.0,
+        "n_blocks": 50,
+        "n1": 432,
+        "n2": 368,
+        "n1_blocks": 27,
+        "n2_blocks": 23,
+        "block_sd": 0.5,
+        "reps": 60,
+        "delta": 0.0,
+        "fpr_poisson": 0.7172222222222223,
+        "fpr_ql_moments": 0.35461111111111115,
+        "fpr_blocklevel": 0.05388888888888888
+      },
+      {
+        "bin_um": 64.0,
+        "n_blocks": 50,
+        "n1": 352,
+        "n2": 448,
+        "n1_blocks": 22,
+        "n2_blocks": 28,
+        "block_sd": 0.5,
+        "reps": 60,
+        "delta": 0.0,
+        "fpr_poisson": 0.8009444444444445,
+        "fpr_ql_moments": 0.3146666666666667,
+        "fpr_blocklevel": 0.026555555555555554
+      }
+    ]
+  }
+}

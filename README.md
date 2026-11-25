@@ -35,6 +35,33 @@ v7 was removed.
 
 ---
 
+### Version 1.3.0 adds the calibration outputs
+
+The manuscript reports what a test that assumes Poisson would do once the exponent
+is known, and how much power a quasi-likelihood test keeps at each bin size. Three
+scripts produce those numbers, each reading the two eight-scale moment tables in
+`reproduce/data/` and writing to `reproduce/out/`:
+
+```
+reproduce/03_SCRIPTS/135_calibration.py   ->  reproduce/out/calibration.json
+reproduce/03_SCRIPTS/136_gamma_scan.py    ->  reproduce/out/gamma_scan.json
+reproduce/03_SCRIPTS/137_bh_ordering.py   ->  reproduce/out/bh_ordering.json
+reproduce/03_SCRIPTS/make_numbers_v9.py   ->  reproduce/out/numbers_v9.json
+```
+
+`136_gamma_scan.py` finishes in about a second and `137_bh_ordering.py` in about a
+minute; `135_calibration.py` runs a simulation and takes longer. Every generator is
+seeded, so two runs on one machine agree value for value. The shipped
+`reproduce/02_OUT/*.json` were checked by re-running 136 and 137 from a clean copy of
+these files and comparing every value with the JSON in this archive; 137 was the
+script that exposed a stale ordering claim, so it is the one worth re-running first.
+
+`make_numbers_v9.py` takes the 209-key lock from release v1.2.0 as its starting
+point and adds the calibration keys, producing the 284-key
+`reproduce/02_OUT/numbers_v8.json` that the manuscript reads.
+
+---
+
 ## What it answers
 
 Three questions, in the order people actually ask them.

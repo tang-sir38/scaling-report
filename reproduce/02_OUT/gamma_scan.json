@@ -1,0 +1,758 @@
+{
+  "P1": {
+    "gamma_median_per_gene": 0.6385204902128584,
+    "n_genes_fitted": 13583,
+    "n_cells": [
+      8115564.0,
+      2028891.0,
+      507684.0,
+      127809.0,
+      32481.0,
+      8290.0,
+      2164.0,
+      580.0
+    ],
+    "mu_median_by_scale": [
+      0.0020146474108269,
+      0.0080585896433076,
+      0.03220507244664003,
+      0.12792526347909772,
+      0.5033712016255658,
+      1.9722557297949335,
+      7.555452865064694,
+      28.189655172413794
+    ],
+    "phi_median_by_scale": [
+      1.0119710255897374,
+      1.0334297375341297,
+      1.0825715613519007,
+      1.2276338228033041,
+      1.7025360084232974,
+      3.298086885105697,
+      8.924734493392092,
+      29.518605905762037
+    ],
+    "phi_2_minus_1": 0.011971025589737394,
+    "mu_median_256": 28.189655172413794,
+    "gamma_scan": [
+      {
+        "gamma": 0.3,
+        "phi_256_if_power_law_held": 46.74970600553002,
+        "power_poisson": 1.0,
+        "power_ql": 0.4407681635949679,
+        "loss_pp": 55.92318364050322,
+        "n_effective_fraction": 0.021390508849012013
+      },
+      {
+        "gamma": 0.364,
+        "phi_256_if_power_law_held": 34.53720530559371,
+        "power_poisson": 1.0,
+        "power_ql": 0.5583502537084554,
+        "loss_pp": 44.164974629154464,
+        "n_effective_fraction": 0.028954282523781336
+      },
+      {
+        "gamma": 0.45,
+        "phi_256_if_power_law_held": 23.095651534186324,
+        "power_poisson": 1.0,
+        "power_ql": 0.7311331540763288,
+        "loss_pp": 26.886684592367118,
+        "n_effective_fraction": 0.04329819397040148
+      },
+      {
+        "gamma": 0.5,
+        "phi_256_if_power_law_held": 18.33589682639053,
+        "power_poisson": 1.0,
+        "power_ql": 0.824161210424729,
+        "loss_pp": 17.583878957527098,
+        "n_effective_fraction": 0.054537828690261705
+      },
+      {
+        "gamma": 0.554,
+        "phi_256_if_power_law_held": 14.340035191889399,
+        "power_poisson": 1.0,
+        "power_ql": 0.9048084559270424,
+        "loss_pp": 9.51915440729576,
+        "n_effective_fraction": 0.06973483583677614
+      },
+      {
+        "gamma": 0.6,
+        "phi_256_if_power_law_held": 11.671496264067278,
+        "power_poisson": 1.0,
+        "power_ql": 0.9519416092509588,
+        "loss_pp": 4.805839074904117,
+        "n_effective_fraction": 0.08567881764043168
+      },
+      {
+        "gamma": 0.7,
+        "phi_256_if_power_law_held": 7.569076503768791,
+        "power_poisson": 1.0,
+        "power_ql": 0.9944596802470363,
+        "loss_pp": 0.5540319752963652,
+        "n_effective_fraction": 0.13211651375198552
+      }
+    ],
+    "depth_scan": [
+      {
+        "depth_multiplier": 0.5,
+        "phi_256_median": 15.259302952881018,
+        "power_poisson_median": 0.9999999999945648,
+        "power_ql_median": 0.6194468338379843,
+        "loss_pp": 38.05531661565805
+      },
+      {
+        "depth_multiplier": 1.0,
+        "phi_256_median": 29.518605905762037,
+        "power_poisson_median": 1.0,
+        "power_ql_median": 0.6350032747208498,
+        "loss_pp": 36.49967252791502
+      },
+      {
+        "depth_multiplier": 2.0,
+        "phi_256_median": 58.037211811524074,
+        "power_poisson_median": 1.0,
+        "power_ql_median": 0.6421554321542844,
+        "loss_pp": 35.78445678457156
+      },
+      {
+        "depth_multiplier": 4.0,
+        "phi_256_median": 115.07442362304815,
+        "power_poisson_median": 1.0,
+        "power_ql_median": 0.6459094151321323,
+        "loss_pp": 35.40905848678677
+      }
+    ],
+    "effective_n_by_scale": [
+      {
+        "bin_um": 2.0,
+        "phi": 1.0119710255897374,
+        "n_bins": 8115564.0,
+        "n_effective_fraction": 0.9881705846441985,
+        "n_effective": 8019561.62259741
+      },
+      {
+        "bin_um": 4.0,
+        "phi": 1.0334297375341297,
+        "n_bins": 2028891.0,
+        "n_effective_fraction": 0.9676516590146743,
+        "n_effective": 1963259.7421099416
+      },
+      {
+        "bin_um": 8.0,
+        "phi": 1.0825715613519007,
+        "n_bins": 507684.0,
+        "n_effective_fraction": 0.9237264636355434,
+        "n_effective": 468961.14596434723
+      },
+      {
+        "bin_um": 16.0,
+        "phi": 1.2276338228033041,
+        "n_bins": 127809.0,
+        "n_effective_fraction": 0.8145751456378891,
+        "n_effective": 104110.03478883297
+      },
+      {
+        "bin_um": 32.0,
+        "phi": 1.7025360084232974,
+        "n_bins": 32481.0,
+        "n_effective_fraction": 0.5873590896477371,
+        "n_effective": 19078.01059084815
+      },
+      {
+        "bin_um": 64.0,
+        "phi": 3.298086885105697,
+        "n_bins": 8290.0,
+        "n_effective_fraction": 0.30320608123334875,
+        "n_effective": 2513.578413424461
+      },
+      {
+        "bin_um": 128.0,
+        "phi": 8.924734493392092,
+        "n_bins": 2164.0,
+        "n_effective_fraction": 0.11204815120723242,
+        "n_effective": 242.47219921245096
+      },
+      {
+        "bin_um": 256.0,
+        "phi": 29.518605905762037,
+        "n_bins": 580.0,
+        "n_effective_fraction": 0.033876938605857394,
+        "n_effective": 19.648624391397288
+      }
+    ],
+    "phi_256_predicted_from_gamma": 9.852268042031703,
+    "phi_256_measured": 29.518605905762037,
+    "extrapolation_ratio": 0.3337646795883588,
+    "depth_scan_anchor": "measured phi(256), per-gene medians",
+    "power_law_fidelity": [
+      {
+        "bin_um": 2.0,
+        "phi_predicted": 1.0119710255897374,
+        "phi_measured": 1.0119710255897374,
+        "ratio_pred_over_meas": 1.0,
+        "rel_error": 0.0
+      },
+      {
+        "bin_um": 4.0,
+        "phi_predicted": 1.030759376651,
+        "phi_measured": 1.0334297375341297,
+        "ratio_pred_over_meas": 0.9974160208612716,
+        "rel_error": -0.002583979138728417
+      },
+      {
+        "bin_um": 8.0,
+        "phi_predicted": 1.0790357722373594,
+        "phi_measured": 1.0825715613519007,
+        "ratio_pred_over_meas": 0.9967338980250637,
+        "rel_error": -0.0032661019749363144
+      },
+      {
+        "bin_um": 16.0,
+        "phi_predicted": 1.2030812706002174,
+        "phi_measured": 1.2276338228033041,
+        "ratio_pred_over_meas": 0.9800001012133888,
+        "rel_error": -0.01999989878661124
+      },
+      {
+        "bin_um": 32.0,
+        "phi_predicted": 1.521814379756311,
+        "phi_measured": 1.7025360084232974,
+        "ratio_pred_over_meas": 0.8938515087065025,
+        "rel_error": -0.1061484912934975
+      },
+      {
+        "bin_um": 64.0,
+        "phi_predicted": 2.34079448151814,
+        "phi_measured": 3.298086885105697,
+        "ratio_pred_over_meas": 0.7097431217137635,
+        "rel_error": -0.2902568782862365
+      },
+      {
+        "bin_um": 128.0,
+        "phi_predicted": 4.44515197628138,
+        "phi_measured": 8.924734493392092,
+        "ratio_pred_over_meas": 0.4980710607775041,
+        "rel_error": -0.5019289392224959
+      },
+      {
+        "bin_um": 256.0,
+        "phi_predicted": 9.852268042031703,
+        "phi_measured": 29.518605905762037,
+        "ratio_pred_over_meas": 0.3337646795883588,
+        "rel_error": -0.6662353204116411
+      }
+    ],
+    "prospective_extrapolation": [
+      {
+        "fit_window_um": [
+          2.0,
+          8.0
+        ],
+        "gamma_fitted": 0.7235958484142107,
+        "target_um": 16.0,
+        "phi_predicted": 1.1701528265117556,
+        "phi_measured": 1.2276338228033041,
+        "factor_pred_over_meas": 0.9531774090744008
+      },
+      {
+        "fit_window_um": [
+          2.0,
+          8.0
+        ],
+        "gamma_fitted": 0.7235958484142107,
+        "target_um": 32.0,
+        "phi_predicted": 1.4121687907007094,
+        "phi_measured": 1.7025360084232974,
+        "factor_pred_over_meas": 0.8294501753349145
+      },
+      {
+        "fit_window_um": [
+          2.0,
+          8.0
+        ],
+        "gamma_fitted": 0.7235958484142107,
+        "target_um": 64.0,
+        "phi_predicted": 1.9984148692114048,
+        "phi_measured": 3.298086885105697,
+        "factor_pred_over_meas": 0.6059315411720452
+      },
+      {
+        "fit_window_um": [
+          2.0,
+          8.0
+        ],
+        "gamma_fitted": 0.7235958484142107,
+        "target_um": 128.0,
+        "phi_predicted": 3.418504926993034,
+        "phi_measured": 8.924734493392092,
+        "factor_pred_over_meas": 0.3830371569623845
+      },
+      {
+        "fit_window_um": [
+          2.0,
+          8.0
+        ],
+        "gamma_fitted": 0.7235958484142107,
+        "target_um": 256.0,
+        "phi_predicted": 6.858452495313424,
+        "phi_measured": 29.518605905762037,
+        "factor_pred_over_meas": 0.2323433741149223
+      },
+      {
+        "fit_window_um": [
+          2.0,
+          16.0
+        ],
+        "gamma_fitted": 0.8214330270096173,
+        "target_um": 32.0,
+        "phi_predicted": 1.3142442952069628,
+        "phi_measured": 1.7025360084232974,
+        "factor_pred_over_meas": 0.7719333328074935
+      },
+      {
+        "fit_window_um": [
+          2.0,
+          16.0
+        ],
+        "gamma_fitted": 0.8214330270096173,
+        "target_um": 64.0,
+        "phi_predicted": 1.7112977141119032,
+        "phi_measured": 3.298086885105697,
+        "factor_pred_over_meas": 0.5188758737194578
+      },
+      {
+        "fit_window_um": [
+          2.0,
+          16.0
+        ],
+        "gamma_fitted": 0.8214330270096173,
+        "target_um": 128.0,
+        "phi_predicted": 2.610035395447996,
+        "phi_measured": 8.924734493392092,
+        "factor_pred_over_meas": 0.2924496406453857
+      },
+      {
+        "fit_window_um": [
+          2.0,
+          16.0
+        ],
+        "gamma_fitted": 0.8214330270096173,
+        "target_um": 256.0,
+        "phi_predicted": 4.64434458759918,
+        "phi_measured": 29.518605905762037,
+        "factor_pred_over_meas": 0.1573361764585435
+      },
+      {
+        "fit_window_um": [
+          2.0,
+          32.0
+        ],
+        "gamma_fitted": 0.831391899329503,
+        "target_um": 64.0,
+        "phi_predicted": 1.6871662428420033,
+        "phi_measured": 3.298086885105697,
+        "factor_pred_over_meas": 0.5115590648813162
+      },
+      {
+        "fit_window_um": [
+          2.0,
+          32.0
+        ],
+        "gamma_fitted": 0.831391899329503,
+        "target_um": 128.0,
+        "phi_predicted": 2.544713378930843,
+        "phi_measured": 8.924734493392092,
+        "factor_pred_over_meas": 0.2851304294615104
+      },
+      {
+        "fit_window_um": [
+          2.0,
+          32.0
+        ],
+        "gamma_fitted": 0.831391899329503,
+        "target_um": 256.0,
+        "phi_predicted": 4.472433996727302,
+        "phi_measured": 29.518605905762037,
+        "factor_pred_over_meas": 0.1515123719258802
+      }
+    ]
+  },
+  "P2": {
+    "gamma_median_per_gene": 0.4360244719275046,
+    "n_genes_fitted": 13574,
+    "n_cells": [
+      8731400.0,
+      2182850.0,
+      545913.0,
+      137051.0,
+      34580.0,
+      8761.0,
+      2246.0,
+      582.0
+    ],
+    "mu_median_by_scale": [
+      0.005416428064227959,
+      0.021665712256911836,
+      0.08663101996105607,
+      0.34507592064268044,
+      1.3676402544823598,
+      5.398128067572195,
+      21.05654496883348,
+      81.2594501718213
+    ],
+    "phi_median_by_scale": [
+      1.015178883347441,
+      1.0424468787861314,
+      1.1320757213929356,
+      1.4292102240129116,
+      2.414610364646254,
+      5.573752017992619,
+      15.815714301139362,
+      50.391528549263754
+    ],
+    "phi_2_minus_1": 0.015178883347441108,
+    "mu_median_256": 81.2594501718213,
+    "gamma_scan": [
+      {
+        "gamma": 0.3,
+        "phi_256_if_power_law_held": 59.009186049438526,
+        "power_poisson": 1.0,
+        "power_ql": 0.7826388899777981,
+        "loss_pp": 21.73611100222019,
+        "n_effective_fraction": 0.016946514042105062
+      },
+      {
+        "gamma": 0.364,
+        "phi_256_if_power_law_held": 43.5241198689942,
+        "power_poisson": 1.0,
+        "power_ql": 0.8909721646821436,
+        "loss_pp": 10.902783531785643,
+        "n_effective_fraction": 0.022975766150124543
+      },
+      {
+        "gamma": 0.45,
+        "phi_256_if_power_law_held": 29.01659010825652,
+        "power_poisson": 1.0,
+        "power_ql": 0.9743518672625309,
+        "loss_pp": 2.564813273746913,
+        "n_effective_fraction": 0.03446304325453649
+      },
+      {
+        "gamma": 0.5,
+        "phi_256_if_power_law_held": 22.98137107622947,
+        "power_poisson": 1.0,
+        "power_ql": 0.9924999689648881,
+        "loss_pp": 0.7500031035111876,
+        "n_effective_fraction": 0.0435135047723214
+      },
+      {
+        "gamma": 0.554,
+        "phi_256_if_power_law_held": 17.914744397676145,
+        "power_poisson": 1.0,
+        "power_ql": 0.9987145611271377,
+        "loss_pp": 0.12854388728622546,
+        "n_effective_fraction": 0.055819942378285754
+      },
+      {
+        "gamma": 0.6,
+        "phi_256_if_power_law_held": 14.531121099080714,
+        "power_poisson": 1.0,
+        "power_ql": 0.9998172323900782,
+        "loss_pp": 0.018276760992175234,
+        "n_effective_fraction": 0.06881781475644458
+      },
+      {
+        "gamma": 0.7,
+        "phi_256_if_power_law_held": 9.329382073713377,
+        "power_poisson": 1.0,
+        "power_ql": 0.9999995968148927,
+        "loss_pp": 4.031851073005299e-05,
+        "n_effective_fraction": 0.107188235201302
+      }
+    ],
+    "depth_scan": [
+      {
+        "depth_multiplier": 0.5,
+        "phi_256_median": 25.695764274631877,
+        "power_poisson_median": 1.0,
+        "power_ql_median": 0.8348992291208648,
+        "loss_pp": 16.510077087913523
+      },
+      {
+        "depth_multiplier": 1.0,
+        "phi_256_median": 50.391528549263754,
+        "power_poisson_median": 1.0,
+        "power_ql_median": 0.8423232665211138,
+        "loss_pp": 15.767673347888621
+      },
+      {
+        "depth_multiplier": 2.0,
+        "phi_256_median": 99.78305709852751,
+        "power_poisson_median": 1.0,
+        "power_ql_median": 0.8459944750096078,
+        "loss_pp": 15.400552499039222
+      },
+      {
+        "depth_multiplier": 4.0,
+        "phi_256_median": 198.56611419705501,
+        "power_poisson_median": 1.0,
+        "power_ql_median": 0.8480385088666516,
+        "loss_pp": 15.196149113334844
+      }
+    ],
+    "effective_n_by_scale": [
+      {
+        "bin_um": 2.0,
+        "phi": 1.015178883347441,
+        "n_bins": 8731400.0,
+        "n_effective_fraction": 0.9850480702500525,
+        "n_effective": 8600848.720581308
+      },
+      {
+        "bin_um": 4.0,
+        "phi": 1.0424468787861314,
+        "n_bins": 2182850.0,
+        "n_effective_fraction": 0.9592814946738022,
+        "n_effective": 2093967.6106487091
+      },
+      {
+        "bin_um": 8.0,
+        "phi": 1.1320757213929356,
+        "n_bins": 545913.0,
+        "n_effective_fraction": 0.8833331385020552,
+        "n_effective": 482223.04363907245
+      },
+      {
+        "bin_um": 16.0,
+        "phi": 1.4292102240129116,
+        "n_bins": 137051.0,
+        "n_effective_fraction": 0.6996871301355635,
+        "n_effective": 95892.82087220912
+      },
+      {
+        "bin_um": 32.0,
+        "phi": 2.414610364646254,
+        "n_bins": 34580.0,
+        "n_effective_fraction": 0.41414549305411535,
+        "n_effective": 14321.151149811309
+      },
+      {
+        "bin_um": 64.0,
+        "phi": 5.573752017992619,
+        "n_bins": 8761.0,
+        "n_effective_fraction": 0.17941235935360988,
+        "n_effective": 1571.8316802969762
+      },
+      {
+        "bin_um": 128.0,
+        "phi": 15.815714301139362,
+        "n_bins": 2246.0,
+        "n_effective_fraction": 0.06322825393526235,
+        "n_effective": 142.01065833859926
+      },
+      {
+        "bin_um": 256.0,
+        "phi": 50.391528549263754,
+        "n_bins": 582.0,
+        "n_effective_fraction": 0.019844605408672614,
+        "n_effective": 11.549560347847462
+      }
+    ],
+    "phi_256_predicted_from_gamma": 30.982279498072398,
+    "phi_256_measured": 50.391528549263754,
+    "extrapolation_ratio": 0.6148311113004542,
+    "depth_scan_anchor": "measured phi(256), per-gene medians",
+    "power_law_fidelity": [
+      {
+        "bin_um": 2.0,
+        "phi_predicted": 1.015178883347441,
+        "phi_measured": 1.015178883347441,
+        "ratio_pred_over_meas": 1.0,
+        "rel_error": 0.0
+      },
+      {
+        "bin_um": 4.0,
+        "phi_predicted": 1.0448790205056262,
+        "phi_measured": 1.0424468787861314,
+        "ratio_pred_over_meas": 1.0023331085439355,
+        "rel_error": 0.002333108543935479
+      },
+      {
+        "bin_um": 8.0,
+        "phi_predicted": 1.1326926648977749,
+        "phi_measured": 1.1320757213929356,
+        "ratio_pred_over_meas": 1.0005449666424082,
+        "rel_error": 0.0005449666424081726
+      },
+      {
+        "bin_um": 16.0,
+        "phi_predicted": 1.3923290463851776,
+        "phi_measured": 1.4292102240129116,
+        "ratio_pred_over_meas": 0.9741947146696308,
+        "rel_error": -0.025805285330369167
+      },
+      {
+        "bin_um": 32.0,
+        "phi_predicted": 2.1599893690889616,
+        "phi_measured": 2.414610364646254,
+        "ratio_pred_over_meas": 0.8945498622529955,
+        "rel_error": -0.1054501377470045
+      },
+      {
+        "bin_um": 64.0,
+        "phi_predicted": 4.429711230400105,
+        "phi_measured": 5.573752017992619,
+        "ratio_pred_over_meas": 0.7947449431012651,
+        "rel_error": -0.20525505689873488
+      },
+      {
+        "bin_um": 128.0,
+        "phi_predicted": 11.140540454410392,
+        "phi_measured": 15.815714301139362,
+        "ratio_pred_over_meas": 0.7043969208275234,
+        "rel_error": -0.2956030791724767
+      },
+      {
+        "bin_um": 256.0,
+        "phi_predicted": 30.982279498072398,
+        "phi_measured": 50.391528549263754,
+        "ratio_pred_over_meas": 0.6148311113004542,
+        "rel_error": -0.3851688886995458
+      }
+    ],
+    "prospective_extrapolation": [
+      {
+        "fit_window_um": [
+          2.0,
+          8.0
+        ],
+        "gamma_fitted": 0.5505452944439184,
+        "target_um": 16.0,
+        "phi_predicted": 1.309191719515499,
+        "phi_measured": 1.4292102240129116,
+        "factor_pred_over_meas": 0.9160245970250431
+      },
+      {
+        "fit_window_um": [
+          2.0,
+          8.0
+        ],
+        "gamma_fitted": 0.5505452944439184,
+        "target_um": 32.0,
+        "phi_predicted": 1.8444174476249242,
+        "phi_measured": 2.414610364646254,
+        "factor_pred_over_meas": 0.7638571732442372
+      },
+      {
+        "fit_window_um": [
+          2.0,
+          8.0
+        ],
+        "gamma_fitted": 0.5505452944439184,
+        "target_um": 64.0,
+        "phi_predicted": 3.30614463728434,
+        "phi_measured": 5.573752017992619,
+        "factor_pred_over_meas": 0.5931632097394682
+      },
+      {
+        "fit_window_um": [
+          2.0,
+          8.0
+        ],
+        "gamma_fitted": 0.5505452944439184,
+        "target_um": 128.0,
+        "phi_predicted": 7.2981918517126845,
+        "phi_measured": 15.815714301139362,
+        "factor_pred_over_meas": 0.4614519276683522
+      },
+      {
+        "fit_window_um": [
+          2.0,
+          8.0
+        ],
+        "gamma_fitted": 0.5505452944439184,
+        "target_um": 256.0,
+        "phi_predicted": 18.200664676302008,
+        "phi_measured": 50.391528549263754,
+        "factor_pred_over_meas": 0.36118500867677944
+      },
+      {
+        "fit_window_um": [
+          2.0,
+          16.0
+        ],
+        "gamma_fitted": 0.5502124941886928,
+        "target_um": 32.0,
+        "phi_predicted": 1.845196966584162,
+        "phi_measured": 2.414610364646254,
+        "factor_pred_over_meas": 0.7641800075079558
+      },
+      {
+        "fit_window_um": [
+          2.0,
+          16.0
+        ],
+        "gamma_fitted": 0.5502124941886928,
+        "target_um": 64.0,
+        "phi_predicted": 3.3088060739718665,
+        "phi_measured": 5.573752017992619,
+        "factor_pred_over_meas": 0.5936407043748476
+      },
+      {
+        "fit_window_um": [
+          2.0,
+          16.0
+        ],
+        "gamma_fitted": 0.5502124941886928,
+        "target_um": 128.0,
+        "phi_predicted": 7.306915071823771,
+        "phi_measured": 15.815714301139362,
+        "factor_pred_over_meas": 0.46200348164466915
+      },
+      {
+        "fit_window_um": [
+          2.0,
+          16.0
+        ],
+        "gamma_fitted": 0.5502124941886928,
+        "target_um": 256.0,
+        "phi_predicted": 18.228462005372624,
+        "phi_measured": 50.391528549263754,
+        "factor_pred_over_meas": 0.3617366357036008
+      },
+      {
+        "fit_window_um": [
+          2.0,
+          32.0
+        ],
+        "gamma_fitted": 0.5304531174781624,
+        "target_um": 64.0,
+        "phi_predicted": 3.4724543496491185,
+        "phi_measured": 5.573752017992619,
+        "factor_pred_over_meas": 0.6230012276182534
+      },
+      {
+        "fit_window_um": [
+          2.0,
+          32.0
+        ],
+        "gamma_fitted": 0.5304531174781624,
+        "target_um": 128.0,
+        "phi_predicted": 7.847089006717671,
+        "phi_measured": 15.815714301139362,
+        "factor_pred_over_meas": 0.49615773636935057
+      },
+      {
+        "fit_window_um": [
+          2.0,
+          32.0
+        ],
+        "gamma_fitted": 0.5304531174781624,
+        "target_um": 256.0,
+        "phi_predicted": 19.961979165587987,
+        "phi_measured": 50.391528549263754,
+        "factor_pred_over_meas": 0.39613759971723744
+      }
+    ]
+  }
+}
