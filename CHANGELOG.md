@@ -1,5 +1,29 @@
 # Changelog
 
+## 1.2.0 — 2026-11-25
+
+The package could price the Poisson mistake but not undo it. This release adds
+the correction as four callable functions. Nothing else changes; no existing
+function signature moved.
+
+### Added
+
+- `ql_phi(mu, alpha)` — the variance ratio `1 + alpha*mu`.
+- `ql_z(z_poisson, phi)` — the quasi-likelihood z, `z_poisson / sqrt(phi)`.
+- `ql_p(z_poisson, phi, two_sided=True)` — its p-value.
+- `ql_test(observed, expected, mu, alpha)` — the Wald form, returning
+  `z_poisson`, `phi`, `z` and `p` together.
+- `tests/test_ql.py`, which pins the inverse property: `ql_p(z_crit, phi)` must
+  equal `fpr_under_poisson(phi)` at every phi tested, or the correction does not
+  undo the inflation the package reports.
+
+### Notes
+
+- `phi` is taken as known. Estimated from the same bins it is anti-conservative
+  for small bin counts, and it does not repair a design whose groups are whole
+  regions rather than randomised bins.
+- This is the package version. The archive that ships it is release **1.4.0**.
+
 ## 1.1.2 — 2026-11-24
 
 The 1.1.1 archive shipped files that are not in the repository. No code changed.

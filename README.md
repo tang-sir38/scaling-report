@@ -199,6 +199,29 @@ Holding γ_pool fixed, the per-gene median can be moved anywhere in 0.00–1.00 
 relocating the heaviest transcript — an existence proof, not an optimisation. The
 pooled value can compare sections; the per-gene median cannot.
 
+## Correcting a test, not just pricing it
+
+`scale_table` tells you what the Poisson assumption costs at each bin size. If you
+want to act on that instead of avoiding the bin size, the correction is four calls:
+
+```python
+from scaling_report import ql_phi, ql_z, ql_p, ql_test
+
+ql_phi(mu=25.0, alpha=0.6)       # 16.0   -- variance ratio 1 + alpha*mu
+ql_z(z_poisson=2.0, phi=16.0)    # 0.5    -- z / sqrt(phi)
+ql_p(z_poisson=2.0, phi=16.0)    # 0.617  -- two-sided p
+ql_test(observed=120, expected=100, mu=25.0, alpha=0.6)
+# {'z_poisson': 2.0, 'phi': 16.0, 'z': 0.5, 'p': 0.617}
+```
+
+`ql_p(z_crit, phi)` returns exactly `fpr_under_poisson(phi)`; that inverse is
+asserted in `tests/test_ql.py`, so the correction cannot silently disagree with
+the diagnosis that motivated it.
+
+It does not create replicates. When the two groups are whole regions rather than
+randomised bins, `phi` estimated from the same bins stays anti-conservative and
+the test remains liberal; sum within block and test the blocks instead.
+
 ## What it deliberately will not do
 
 - **No confidence interval.** Bins are spatially correlated, so resampling bins

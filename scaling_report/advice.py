@@ -242,3 +242,96 @@ def _safe_ident(f: Fit) -> dict:
         return identifiability(f)
     except Exception:
         return dict(defined=False, reason="not computed")
+
+
+# --------------------------------------------------------------------------
+# quasi-likelihood: from "how bad is it" to "what do I do"
+# --------------------------------------------------------------------------
+#
+# The functions above answer what the Poisson assumption costs.  A reader who
+# accepts the cost still has to act on it, and the action is one line of
+# arithmetic: divide the Poisson z by sqrt(phi).  That is the quasi-likelihood
+# score test of Wedderburn (1974), and it is the same correction the manuscript
+# reports as returning the false-positive rate to 4.9-5.1%.
+#
+# Stated plainly so it cannot be misread: this is a variance correction, not a
+# model.  It does not create independent replicates.  When the two groups being
+# compared are whole regions rather than randomly assigned bins, phi estimated
+# from the same bins is anti-conservative and the test stays liberal -- the
+# manuscript measures 17-36% rejection of true nulls in that design, and no
+# per-bin correction repairs it.
+
+
+def ql_phi(mu: float, alpha: float) -> float:
+    """Variance ratio of a negative-binomial count to its Poisson value.
+
+    ``phi = 1 + alpha * mu`` for counts with ``Var(Y) = mu + alpha * mu**2``.
+    This is the quantity the report calls the variance inflation.
+    """
+    mu = float(mu)
+    alpha = float(alpha)
+    if mu < 0.0:
+        raise ValueError("mu must be non-negative")
+    if alpha < 0.0:
+        raise ValueError("alpha must be non-negative")
+    return 1.0 + alpha * mu
+
+
+def ql_z(z_poisson: float, phi: float) -> float:
+    """Quasi-likelihood z for a Poisson z whose variance is inflated by ``phi``.
+
+    The Poisson statistic divides the residual by ``sqrt(mu)`` where it should
+    divide by ``sqrt(phi * mu)``, so the corrected statistic is
+    ``z_poisson / sqrt(phi)``.  ``phi = 1`` returns the input unchanged.
+    """
+    phi = float(phi)
+    if phi <= 0.0:
+        raise ValueError("phi must be positive")
+    return float(z_poisson) / math.sqrt(phi)
+
+
+def ql_p(z_poisson: float, phi: float, two_sided: bool = True) -> float:
+    """P-value of the quasi-likelihood z.  Two-sided by default."""
+    z = ql_z(z_poisson, phi)
+    p = 2.0 * (1.0 - _phi_cdf(abs(z))) if two_sided else 1.0 - _phi_cdf(z)
+    return float(min(1.0, max(0.0, p)))
+
+
+def ql_test(observed: float, expected: float, mu: float, alpha: float,
+            two_sided: bool = True) -> dict:
+    """Quasi-likelihood Wald test for one summed count, at one bin size.
+
+    Parameters
+    ----------
+    observed
+        Total counts in the region being tested (the sum over its bins).
+    expected
+        Total counts expected under the null, i.e. ``n_bins * mu``.
+    mu
+        Mean count per bin at this bin size.
+    alpha
+        Overdispersion at this bin size, from the fitted ladder.
+    two_sided
+        Whether to double the upper tail.
+
+    Returns
+    -------
+    dict with ``z_poisson``, ``phi``, ``z`` and ``p``.
+
+    Notes
+    -----
+    ``phi`` is taken as known.  When it is estimated from the same bins, the
+    correction is anti-conservative for small numbers of bins, and it does not
+    repair a design whose groups are whole regions rather than randomised bins.
+    """
+    observed = float(observed)
+    expected = float(expected)
+    if expected <= 0.0:
+        raise ValueError("expected must be positive")
+    if observed < 0.0:
+        raise ValueError("observed must be non-negative")
+    phi = ql_phi(mu, alpha)
+    z_poisson = (observed - expected) / math.sqrt(expected)
+    z = ql_z(z_poisson, phi)
+    p = ql_p(z_poisson, phi, two_sided=two_sided)
+    return dict(z_poisson=float(z_poisson), phi=float(phi), z=float(z), p=p)

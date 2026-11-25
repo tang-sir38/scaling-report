@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "scaling-report"
-version = "1.1.2"
+version = "1.2.0"
 description = "Report a binned spatial transcriptomics scaling exponent, and what a Poisson test costs at each bin size"
 readme = "README.md"
 requires-python = ">=3.9"
